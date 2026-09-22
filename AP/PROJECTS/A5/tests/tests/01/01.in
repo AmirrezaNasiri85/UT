@@ -1,0 +1,10 @@
+POST login ? username "amir" password "italy"
+POST report ? username "iliya" reason "Toxic"
+POST logout ?
+POST penalty ? report_id "1" type "health_penalty" amount "1" number_of_matches "1"
+POST login ? username "pishi" password "meow"
+POST penalty ? report_id "1" type "health_penalty" amount "1" number_of_matches "1"
+POST logout ?
+POST login ? username "moonland" password "M@@n"
+POST penalty ? report_id "1" type "health_penalty" number_of_matches "1"
+POST penalty ? report_id "999" type "health_penalty" amount "1" number_of_matches "1"

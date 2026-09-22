@@ -1,0 +1,20 @@
+POST login ? username "p123" password "p654"
+GET profile ?
+POST invitation ? username "amir" match_type "ranked"
+POST logout ?
+POST login ? username "amir" password "italy"
+POST start_match ? invitation_id "1"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "p123" password "p654"
+POST action ? action "reload"
+POST action ? action "reload"
+POST logout ?
+POST login ? username "amir" password "italy"
+POST action ? action "shoot"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "p123" password "p654"
+POST action ? action "reload"
+GET profile ? username "amir"
+GET profile ? username "p123"

@@ -1,0 +1,12 @@
+POST block ? username "amir" status "blocked"
+POST login ? username "amir" password "italy"
+POST block ? username "not_found" status "blocked"
+POST block ? username "meow" status "invalid"
+POST block ? username "meow" status "blocked"
+POST logout ?
+POST login ? username "meow" password "justmeow"
+POST invitation ? username "amir" match_type "ranked"
+POST invitation ? username "amir" match_type "casual"
+POST logout ?
+POST login ? username "amir" password "italy"
+POST start_match ? invitation_id "1"

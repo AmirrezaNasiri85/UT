@@ -1,0 +1,22 @@
+POST register ? username "hello" password "there"
+POST block ? user "hey" status "blocked"
+POST block ? username "newbie1" stat "blocked"
+POST block ? username "newbie1" status "blocked" random "random"
+POST block ? username "daei" status "blocked"
+POST logout ?
+POST login ? username "newbie1" password "a"
+POST invitation ? username "hello" match_type "ranked"
+POST invitation ? username "amir" match_type "ranked"
+POST logout ?
+POST login ? username "daei" password "iphone16"
+POST block ? username "newbie1" status "blocked"
+POST logout ?
+POST login ? username "hello" password "there"
+POST block ? username "newbie1" status "unblocked"
+GET received_invitations ?
+POST logout ?
+POST login ? username "newbie1" password "a"
+POST invitation ? username "hello" match_type "casual"
+POST logout ?
+POST login ? username "hello" password "there"
+GET received_invitations ?

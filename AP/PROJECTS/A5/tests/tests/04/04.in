@@ -1,0 +1,8 @@
+POST login ? username "meow" password "justmeow"
+POST report ? username "newbie1" reason "AFK"
+POST logout ?
+POST login ? username "super_admin" password "sudo"
+POST dismiss_report ? report_id "99"
+POST dismiss_report ? report_id "1"
+POST dismiss_report ? report_id "1"
+GET reports ?

@@ -1,0 +1,30 @@
+POST login ? username "login" password "password"
+GET ranked_match_opponents ? sort_order "desc"
+POST report ? username "pishi" reason "Trolling in previous games"
+POST report ? username "pishi" reason "Insulting in chat"
+POST logout ?
+POST login ? username "admin1" password "admin1"
+POST penalty ? report_id "1" type "health_penalty" amount "2" number_of_matches "1"
+POST penalty ? report_id "2" type "bullet_penalty" amount "2" number_of_matches "2"
+POST logout ?
+POST login ? username "login" password "password"
+POST invitation ? username "pishi" match_type "ranked"
+POST invitation ? username "pishi" match_type "ranked"
+POST logout ?
+POST login ? username "pishi" password "meow"
+POST start_match ? invitation_id "1"
+GET match_status ?
+POST action ? action "reload"
+POST logout ?
+POST login ? username "login" password "password"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "pishi" password "meow"
+POST start_match ? invitation_id "2"
+GET match_status ?
+POST action ? action "reload"
+POST logout ?
+POST login ? username "login" password "password"
+POST action ? action "shoot"
+GET profile ? username "login"
+GET profile ? username "pishi"

@@ -1,0 +1,10 @@
+POST login ? username "pishibala" password "meow"
+POST invitation ? username "iliya" match_type "ranked"
+POST invitation ? username "iliya" match_type "casual"
+POST logout ?
+POST login ? username "iliya" password "ghasab"
+POST invitation ? username "pishibala" match_type "ranked"
+GET received_invitations ?
+POST logout ?
+POST login ? username "pishibala" password "meow"
+GET received_invitations ?

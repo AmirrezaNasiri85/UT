@@ -1,0 +1,28 @@
+POST login ? username "amir" password "italy"
+POST invitation ? username "pishi" match_type "casual"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST invitation ? username "pishi" match_type "ranked"
+POST invitation ? username "pishi" match_type "casual"
+POST logout ?
+POST login ? username "pishi" password "meow"
+GET received_invitations ?
+POST start_match ? invitation_id "2"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST action ? action "reload"
+POST action ? action "reload"
+POST logout ?
+POST login ? username "pishi" password "meow"
+POST action ? action "shoot"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST action ? action "reload"
+POST action ? action "reload"
+POST logout ?
+POST login ? username "pishi" password "meow"
+POST action ? action "shoot"
+GET received_invitations ?
+GET profile ?

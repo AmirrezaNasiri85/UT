@@ -1,0 +1,20 @@
+POST login ? username "pishibala" password "meow"
+GET ranked_match_opponents ? sort_order "asc"
+POST invitation ? username "pishi" match_type "casual"
+POST invitation ? username "pishi" match_type "ranked"
+POST invitation ? username "pro_gamer" match_type "ranked"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+GET received_invitations ?
+POST start_match ? invitation_id "3"
+POST action ? action "reload"
+POST logout ?
+POST login ? username "pishi" password "meow"
+GET received_invitations ?
+POST start_match ? invitation_id "1"
+POST start_match ? invitation_id "2"
+POST logout ?
+POST login ? username "pishibala" password "meow"
+POST action ? action "shoot"
+POST action ? action "reload"
+GET match_status ?

@@ -1,0 +1,65 @@
+OK
+OK
+OK
+OK
+OK
+1: "pishi" reported "p123" for: "hate him"
+2: "pishi" reported "p123" for: "hate him more"
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+Turn 1
+You: pending
+Your opponent: played
+History:
+Opponent's moves:   Your moves:
+Your remaining bullets: 1
+Your remaining health: 1
+username: "p123"
+Level: Silver
+RP: 1400
+XP: 750
+Total wins: 0
+Total losses: 0
+username: "amir"
+Level: Silver
+RP: 1600
+XP: 900
+Total wins: 0
+Total losses: 0
+OK
+username: "p123"
+Level: Bronze
+RP: 1300
+XP: 750
+Total wins: 0
+Total losses: 1
+username: "amir"
+Level: Golden
+RP: 1775
+XP: 900
+Total wins: 1
+Total losses: 0
+OK
+OK
+OK
+OK
+OK
+OK
+Turn 1
+You: defend
+Your opponent: pending
+History:
+Opponent's moves:   Your moves:
+Your remaining bullets: 3
+Your remaining health: 1

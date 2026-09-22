@@ -1,0 +1,48 @@
+POST login ? username "pro_gamer" password "h@rdcore"
+POST invitation ? username "pishibala" match_type "casual"
+POST logout ?
+POST login ? username "pishibala" password "meow"
+POST start_match ? invitation_id "1"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST action ? action "reload"
+POST logout ?
+POST login ? username "pishibala" password "meow"
+POST invitation ? username "pro_gamer" match_type "casual"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST start_match ? invitation_id "2"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "pishibala" password "meow"
+POST action ? action "reload"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+GET profile ? username "pro_gamer"
+GET profile ? username "pishibala"
+POST report ? username "pishibala" reason "Toxic"
+POST logout ?
+POST login ? username "moonland" password "M@@n"
+POST penalty ? report_id "1" type "health_penalty" amount "2" number_of_matches "1"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST invitation ? username "pishibala" match_type "ranked"
+POST logout ?
+POST login ? username "pishibala" password "meow"
+POST start_match ? invitation_id "3"
+GET match_status ?
+POST action ? action "reload"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST action ? action "shoot"
+GET profile ? username "pro_gamer"
+GET profile ? username "pishibala"
+POST logout ?
+POST login ? username "pishibala" password "meow"
+POST invitation ? username "_ghost_" match_type "ranked"
+POST logout ?
+POST login ? username "_ghost_" password "-hidden-"
+POST start_match ? invitation_id "4"
+GET match_status ?
+POST logout ?

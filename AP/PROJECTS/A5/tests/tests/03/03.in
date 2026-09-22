@@ -1,0 +1,9 @@
+POST login ? username "amir" password "italy"
+POST report ? username "iliya" reason "Toxic"
+POST logout ?
+POST dismiss_report ? report_id "1"
+POST login ? username "iliya" password "ghasab"
+POST dismiss_report ? report_id "1"
+POST logout ?
+POST login ? username "mod" password "mod123"
+POST dismiss_report ?

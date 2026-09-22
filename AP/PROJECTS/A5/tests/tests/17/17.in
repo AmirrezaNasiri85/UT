@@ -1,0 +1,7 @@
+POST login ? username "login" password "password"
+GET ranked_match_opponents ?
+POST logout ?
+GET ranked_match_opponents ? sort_order "asc"
+POST login ? username "_ghost_" password "-hidden-"
+GET ranked_match_opponents ?
+POST logout ?

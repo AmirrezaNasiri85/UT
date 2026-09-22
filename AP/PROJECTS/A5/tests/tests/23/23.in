@@ -1,0 +1,27 @@
+POST login ? username "pishibala" password "meow"
+GET ranked_match_opponents ?
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST invitation ? username "pishi" match_type "ranked"
+POST logout ?
+POST login ? username "pishi" password "meow"
+POST start_match ? invitation_id "1"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST action ? action "reload"
+POST action ? action "reload"
+POST logout ?
+POST login ? username "pishi" password "meow"
+POST action ? action "shoot"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+GET match_status ?
+POST action ? action "reload"
+GET match_status ?
+GET profile ?
+GET profile ? username "pishi"
+POST logout ?
+POST login ? username "pishibala" password "meow"
+GET ranked_match_opponents ?

@@ -1,0 +1,17 @@
+POST login ? username "iliya" password "ghasab"
+POST invitation ? username "meow" match_type "ranked"
+POST invitation ? username "meow" match_type "casual"
+POST logout ?
+POST login ? username "meow" password "justmeow"
+POST start_match ? invitation_id "5"
+POST start_match ? invitation_id "2"
+POST start_match ? invitation_id "1"
+GET match_status ?
+POST action ? action "reload"
+POST logout ?
+POST login ? username "iliya" password "ghasab"
+POST invitation ? username "newbie1" match_type "ranked"
+GET match_status ?
+POST logout ?
+POST login ? username "newbie1" password "a"
+POST start_match ? invitation_id "3"

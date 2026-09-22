@@ -1,0 +1,28 @@
+Total income: 0
+Delivered orders:
+Order 1 added
+Order 2 added
+Order 3 added
+Order 3 is currently in warehouse in c
+Order not found
+Order not found
+No order could be loaded
+Order 4 added
+Order 5 added
+Truck 4 loaded with orders: 1 4 5
+No order could be loaded
+Truck 4 delivered orders: 1 4 5
+Order 5 is delivered to b
+No order could be loaded
+No orders to deliver in truck 5
+No order could be loaded
+Order 6 added
+Truck 4 loaded with orders: 6
+Order 6 is in transit to a
+Total income: 315
+Delivered orders:
+1 100
+4 105
+5 110
+Recommended city: c
+Recommended truck: 3

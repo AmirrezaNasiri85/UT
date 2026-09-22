@@ -1,0 +1,50 @@
+POST login ? username "newbie1" password "a"
+GET ranked_match_opponents ? sort_order "asc"
+POST invitation ? username "newbie2" match_type "ranked"
+POST invitation ? username "newbie2" match_type "ranked"
+POST invitation ? username "newbie2" match_type "ranked"
+POST report ? username "newbie2" reason "Reason 1"
+POST report ? username "newbie2" reason "Reason 2"
+POST report ? username "newbie2" reason "Reason 3"
+POST report ? username "newbie2" reason "Reason 4"
+POST logout ?
+POST login ? username "mod" password "mod123"
+POST penalty ? report_id "1" type "health_penalty" amount "2" number_of_matches "3"
+POST penalty ? report_id "2" type "bullet_penalty" amount "2" number_of_matches "3"
+POST logout ?
+POST login ? username "newbie2" password "b"
+POST start_match ? invitation_id "1"
+GET match_status ?
+POST action ? action "reload"
+POST logout ?
+POST login ? username "mod" password "mod123"
+POST penalty ? report_id "3" type "health_penalty" amount "1" number_of_matches "1"
+POST penalty ? report_id "4" type "bullet_penalty" amount "3" number_of_matches "1"
+POST logout ?
+POST login ? username "newbie2" password "b"
+GET match_status ?
+POST logout ?
+POST login ? username "newbie1" password "a"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "newbie2" password "b"
+POST start_match ? invitation_id "2"
+GET match_status ?
+POST action ? action "reload"
+POST logout ?
+POST login ? username "newbie1" password "a"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "newbie2" password "b"
+POST action ? action "reload"
+POST logout ?
+POST login ? username "newbie1" password "a"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "newbie2" password "b"
+POST start_match ? invitation_id "3"
+GET match_status ?
+GET profile ? username "newbie2"
+POST logout ?
+POST login ? username "newbie1" password "a"
+GET profile ? username "newbie1"

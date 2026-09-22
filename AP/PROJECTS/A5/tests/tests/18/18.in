@@ -1,0 +1,6 @@
+POST register ? username "aa" password "123"
+POST logout ?
+POST login ? username "meow" password "justmeow"
+GET ranked_match_opponents ? sort_order "asc"
+GET ranked_match_opponents ? sort_order "dede"
+POST logout ?

@@ -1,0 +1,31 @@
+POST login ? username "ad" password "min"
+GET ranked_match_opponents ?
+POST invitation ? username "meow" match_type "ranked"
+POST logout ?
+POST login ? username "newbie1" password "a"
+POST invitation ? username "newbie2" match_type "ranked"
+POST logout ?
+POST login ? username "newbie2" password "b"
+POST start_match ? invitation_id "1"
+GET match_status ?
+POST action ? action "shoot"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "newbie1" password "a"
+POST action ? action "reload"
+POST action ? action "reload"
+GET match_status ?
+POST logout ?
+POST login ? username "newbie2" password "b"
+POST action ? action "shoot"
+POST action ? action "shoot"
+GET match_status ?
+POST logout ?
+POST login ? username "newbie1" password "a"
+POST action ? action "defend"
+POST action ? action "reload"
+GET match_status ?
+POST logout ?
+POST login ? username "newbie2" password "b"
+GET match_status ?
+POST action ? action "shoot"

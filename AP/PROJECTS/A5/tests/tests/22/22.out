@@ -1,0 +1,70 @@
+OK
+Permission Denied
+Permission Denied
+OK
+OK
+OK
+OK
+OK
+OK
+Turn 1
+You: pending
+Your opponent: pending
+History:
+Opponent's moves:   Your moves:
+Your remaining bullets: 3
+Your remaining health: 3
+OK
+Permission Denied
+OK
+OK
+OK
+OK
+Turn 2
+You: reload
+Your opponent: pending
+History:
+Opponent's moves:   Your moves:
+shoot               reload
+Your remaining bullets: 4
+Your remaining health: 2
+OK
+OK
+OK
+OK
+Turn 3
+You: shoot
+Your opponent: pending
+History:
+Opponent's moves:   Your moves:
+reload              shoot
+reload              shoot
+Your remaining bullets: 1
+Your remaining health: 3
+OK
+OK
+OK
+OK
+Turn 4
+You: reload
+Your opponent: pending
+History:
+Opponent's moves:   Your moves:
+shoot               reload
+shoot               reload
+shoot               defend
+Your remaining bullets: 5
+Your remaining health: 1
+OK
+OK
+Turn 4
+You: pending
+Your opponent: played
+History:
+Opponent's moves:   Your moves:
+reload              shoot
+reload              shoot
+defend              shoot
+Your remaining bullets: 0
+Your remaining health: 3
+Bad Request

@@ -1,0 +1,18 @@
+POST login ? username "pro_gamer" password "h@rdcore"
+POST report ? username "pishibala" reason "Toxic"
+POST logout ?
+POST login ? username "moonland" password "M@@n"
+POST penalty ? report_id "1" type "health_penalty" amount "2" number_of_matches "1"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST invitation ? username "pishibala" match_type "ranked"
+POST logout ?
+POST login ? username "pishibala" password "meow"
+POST start_match ? invitation_id "1"
+GET match_status ?
+POST action ? action "reload"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST action ? action "shoot"
+GET profile ? username "pro_gamer"
+GET profile ? username "pishibala"

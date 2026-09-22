@@ -1,0 +1,32 @@
+POST login ? username "pishi" password "meow"
+POST report ? username "p123" reason "hate him"
+POST report ? username "p123" reason "hate him more"
+POST logout ?
+POST login ? username "ad" password "min"
+GET reports ?
+POST penalty ? report_id "1" type "health_penalty" amount "2" number_of_matches "2"
+POST penalty ? report_id "2" type "bullet_penalty" amount "2" number_of_matches "1"
+POST logout ?
+POST login ? username "p123" password "p654"
+POST invitation ? username "amir" match_type "ranked"
+POST invitation ? username "amir" match_type "ranked"
+POST invitation ? username "meow" match_type "ranked"
+POST logout ?
+POST login ? username "amir" password "italy"
+POST start_match ? invitation_id "1"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "p123" password "p654"
+GET match_status ?
+GET profile ?
+GET profile ? username "amir"
+POST action ? action "reload"
+GET profile ?
+GET profile ? username "amir"
+POST logout ?
+POST login ? username "meow" password "justmeow"
+POST start_match ? invitation_id "3"
+POST logout ?
+POST login ? username "p123" password "p654"
+POST action ? action "defend"
+GET match_status ?

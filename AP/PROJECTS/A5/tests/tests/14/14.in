@@ -1,0 +1,11 @@
+POST register ? username "hello" password "there"
+POST logout ?
+POST login ? username "newbie1" password "a"
+GET ranked_match_opponents ?
+POST invitation ? username "hello" match_type "ranked"
+POST invitation ? username "pro_gamer" match_type "ranked"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+GET received_invitations ?
+POST start_match ? invitation_id "2"
+GET received_invitations ?

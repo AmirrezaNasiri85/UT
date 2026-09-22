@@ -1,0 +1,7 @@
+POST register ? username "mahyar" password "brain"
+GET profile ? random "random"
+GET profile ? username "amir"
+GET profile ? username "_ghost_" random "random"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+GET profile ?

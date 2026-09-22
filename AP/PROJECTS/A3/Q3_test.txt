@@ -1,0 +1,22 @@
+financial_report
+add_order a b 100
+add_order a c 200
+add_order c a 300
+track 3
+track 0
+track 4
+load 4 i
+add_order a b 105
+add_order a b 110
+load 4 b
+load 4 c
+deliver 4
+track 5
+load 4 c
+deliver 5
+load 4 a
+add_order b a 100
+load 4 a
+track 6
+financial_report
+recommend

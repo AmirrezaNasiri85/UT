@@ -1,0 +1,19 @@
+POST login ? username "pro_gamer" password "h@rdcore"
+POST invitation ? username "login" match_type "ranked"
+POST logout ?
+POST login ? username "login" password "password"
+POST start_match ? invitation_id "1"
+POST action ? action "reload"
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST action ? action "shoot"
+POST action ? action "shoot"
+POST logout ?
+POST login ? username "login" password "password"
+POST action ? action "reload"
+POST action ? action "reload"
+GET match_status ?
+POST logout ?
+POST login ? username "pro_gamer" password "h@rdcore"
+POST action ? action "shoot"
+GET match_status ?

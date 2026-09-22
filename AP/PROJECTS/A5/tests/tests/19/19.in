@@ -1,0 +1,12 @@
+POST login ? username "p123" password "p654"
+POST invitation ? username "pishi" match_type "ranked"
+POST logout ?
+POST login ? username "pishi" password "meow"
+POST start_match ? invitation_id "1"
+POST start_match ? invitation_id "1"
+POST invitation ? username "amir" match_type "ranked"
+POST logout ?
+POST login ? username "amir" password "italy"
+GET received_invitations ?
+POST start_match ? invitation_id "2"
+GET received_invitations ?
