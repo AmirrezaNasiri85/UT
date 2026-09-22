@@ -1,0 +1,5 @@
+POST signup ? role visitor username "artin" password "evepass"
+PUT ingredient ? name "chicken" amount 2
+PUT ingredient ? name "rice" amount 2
+PUT ingredient ? name "butter" amount 3
+GET recommendations ? name "Cost based recommender"

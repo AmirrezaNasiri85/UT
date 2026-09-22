@@ -1,0 +1,23 @@
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+1: "sync" - 1404/08/01 - 10 - 12
+OK
+Overlap
+OK
+OK
+1: "sync" - 1404/08/01 - 10 - 12
+OK
+OK
+OK
+OK
+join_event "sync" on 1404/08/01 from 10 to 12 hosted by "h1": "meeting"
+OK

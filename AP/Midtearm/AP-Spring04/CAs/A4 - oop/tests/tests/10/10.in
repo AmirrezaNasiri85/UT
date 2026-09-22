@@ -1,0 +1,4 @@
+generate_test 'have you had enough?' 'unknown template'
+create_template 'some known template idk what to name' Math:easy:2
+generate_test 'i had enough' 'some known template idk what to name'
+generate_test 'imma reuse the template' 'some known template idk what to name'

@@ -1,0 +1,8 @@
+POST sign_up ? username "babak" password "kabab"
+POST signup ? username "babak" password "kabab"
+POST logout ?
+POST signup ? username "babak" password "noKabab"
+POST signup ? username "mahdi" password "kabab"
+POST logout ?
+POST login ? username "babak" password "kabab"
+POST signup ? username "sina" password "sipamo"

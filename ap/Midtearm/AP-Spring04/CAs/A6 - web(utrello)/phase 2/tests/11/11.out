@@ -1,0 +1,32 @@
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+Overlap
+OK
+OK
+OK
+1: "Project Sync Alpha" - 1405/01/11 - 14 - 16
+Overlap
+OK
+OK
+1: "Project Sync Alpha" - 1405/01/11 - 14 - 16
+OK
+OK
+OK
+periodic_event "Host Daily Standup" on 1405/01/10 from 10 for 2 hours Daily: "Host's routine meeting"
+periodic_event "Host Daily Standup" on 1405/01/11 from 10 for 2 hours Daily: "Host's routine meeting"
+join_event "Project Sync Alpha" on 1405/01/11 from 14 to 16 hosted by "hostUser": "Main project discussion"
+periodic_event "Host Daily Standup" on 1405/01/12 from 10 for 2 hours Daily: "Host's routine meeting"
+OK
+OK
+event "GuestOne Appointment" on 1405/01/11 from 15 for 1 hours: "Personal task for GuestOne"
+OK
+OK
+join_event "Project Sync Alpha" on 1405/01/11 from 14 to 16 hosted by "hostUser": "Main project discussion"
+OK

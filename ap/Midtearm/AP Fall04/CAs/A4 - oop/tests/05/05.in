@@ -1,0 +1,12 @@
+open_account Parsa 7002401 3
+transfer_money 7001001 7002401 100000
+transfer_money 7002401 7001003 50000
+transfer_money 7002401 7001003 60000
+grant_loan 100 7001001 3
+pay_installment 100 7001001 -10
+grant_loan 101 7001003 2
+pay_installment 101 7001003 5
+grant_loan 102 7001011 4
+pay_installment 102 7001011 0
+report top_debtors 3
+report top_trusted_clients 3

@@ -1,0 +1,21 @@
+POST signup ? username "dana" password "pass"
+POST logout ?
+POST signup ? username "eli"  password "e"
+POST logout ?
+POST login  ? username "dana" password "pass"
+POST event ? date 1404/06/10 start_time 9  duration 2 title "Lecture"
+POST join_event ? guests "eli"   date 1404/06/10 start_time 10 end_time 11 title "OverlapEvent" description "Conflicts"
+POST join_event ? guests "frank" date 1404/06/11 start_time 10 end_time 11 title "BadGuest"     description "unknown"
+POST join_event ? guests "eli"   date 1404/06/11 start_time 10 end_time 11 title "Good"         description "Ok"
+POST join_event ? guests "eli"   date 1404/06/12 start_time 8  title "Missing"
+POST logout ?
+GET  join_event ?
+POST login  ? username "eli"  password "e"
+GET  join_event ?
+POST confirm_join_event ? invitation_id 5
+POST event ? date 1404/06/11 start_time 10 duration 1 title "Busy"
+POST confirm_join_event ? invitation_id 1
+GET  join_event ?
+POST logout ?
+POST login  ? username "dana" password "pass"
+GET  report ? from 1404/06/11 to 1404/06/12

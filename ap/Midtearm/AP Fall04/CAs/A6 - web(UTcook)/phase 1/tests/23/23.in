@@ -1,0 +1,16 @@
+POST signup ? role chef username "koorosh_err" password "error123"
+POST recipe ? title "ValidRecipe" ingredients "eggs:1" steps "Cook"
+POST recipe ? title "ValidRecipe" ingredients "eggs:2" steps "Cook more"
+POST logout ?
+POST signup ? role visitor username "reza_err" password "error123"
+POST recipe ? title "VisitorRecipe" ingredients "eggs:1" steps "Cook"
+PUT ingredient ? name "eggs" amount -5
+PUT ingredient ? name "eggs" amount 0
+PUT ingredient ? name "FakeIngredient" amount 10
+PUT ingredient ? name "eggs" amount 5
+GET report ? type refrigerator_status
+POST logout ?
+POST login ? username "taha_fake" password "fake"
+POST login ? username "koorosh_err" password "wrongpass"
+POST login ? username "koorosh_err" password "error123"
+POST logout ?

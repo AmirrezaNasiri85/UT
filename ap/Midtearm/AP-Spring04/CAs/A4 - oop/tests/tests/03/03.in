@@ -1,0 +1,7 @@
+create_template 'jambandy physic' Physics:easy:2 Physics:medium:1 Physics:hard:1
+generate_test 'first round' 'jambandy physic'
+attend 'first round'
+3
+2
+1
+4

@@ -1,0 +1,10 @@
+POST event ? date 1404/12/02 start_time 8 duration 2 title "lolo" description "get some lolo"
+POST signup ? username "babak" password "kabab"
+POST event ? date 1404/12/02 start_time 8 duration 2 title "lolo" description "get some lolo"
+POST event ? date 1404/12/04 start_time 8 duration 2 title "lolo" description "yoyo"
+POST event ? date 1404/12/02 start_time 9 duration 2 title "polo" description "get some polo"
+POST event ? date 1404/11/02 start_time 9 duration 2 title "polo" description "get some polo"
+POST logout ?
+POST signup ? username "amin" password "kasir"
+POST event ? date 1404/12/02 start_time 9 duration 2 title "polo" description "get some polo"
+POST event ? date 1404/11/02 start_time 9 duration 2 title "polo" description "get some polo"

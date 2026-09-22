@@ -1,0 +1,12 @@
+add_task a 1
+add_task b 2
+add_task c 3
+add_employee x
+add_employee y
+report all
+assign_employee a x
+assign_employee b y
+report all
+finish_task a
+assign_employee c x
+report all

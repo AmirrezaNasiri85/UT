@@ -1,0 +1,7 @@
+create_template 'hard'  Math:hard:1 Chemistry:hard:1
+generate_test 'hi' 'hrad'
+generate_test 'hi' 'hard'
+attend 'hi'
+1
+
+report subject Chemistry

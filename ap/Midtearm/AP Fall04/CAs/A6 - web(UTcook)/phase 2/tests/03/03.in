@@ -1,0 +1,16 @@
+POST signup ? role chef username "taha" password "pass123"
+POST recipe ? title "Recipe A" ingredients "eggs:1" steps "cook"
+POST recipe ? title "Recipe B" ingredients "eggs:2" steps "cook"
+POST recipe ? title "Recipe C" ingredients "eggs:3" steps "cook"
+POST logout ?
+POST signup ? role visitor username "mahdi" password "pass456"
+POST like ? recipe "Recipe A"
+POST like ? recipe "Recipe A"
+POST like ? recipe "Recipe A"
+POST like ? recipe "Recipe B"
+POST like ? recipe "Recipe B"
+POST like ? recipe "Recipe C"
+POST logout ?
+POST login ? username "taha" password "pass123"
+GET report ? type most_liked
+GET report ? type most_liked count 2

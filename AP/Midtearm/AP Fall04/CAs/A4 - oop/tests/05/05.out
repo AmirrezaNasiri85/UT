@@ -1,0 +1,45 @@
+An account with account number 7002401 was created and assigned to Parsa.
+100000 transferred successfully from Parsa to Parsa.
+50000 transferred successfully from Parsa to Paria.
+Insufficient balance.
+A 200000 loan granted to Parsa successfully.
+Parsa successfully paid 66666 for one installment.
+A 225000 loan granted to Paria successfully.
+Paria successfully paid 112500 for one installment.
+A 1000000 loan granted to IranKhodro_Inc successfully.
+IranKhodro_Inc successfully paid 250000 for one installment.
+Top 3 debtors report:
+1.
+IranKhodro_Inc
+Total Remaining Debt: 750000
+Number of Active Loans: 1
+Largest Loan ID: 102
+Largest Loan Remaining Amount: 750000
+2.
+Parsa
+Total Remaining Debt: 133334
+Number of Active Loans: 1
+Largest Loan ID: 100
+Largest Loan Remaining Amount: 133334
+3.
+Paria
+Total Remaining Debt: 112500
+Number of Active Loans: 1
+Largest Loan ID: 101
+Largest Loan Remaining Amount: 112500
+Top 3 trusted clients report:
+1.
+Parsa
+Loyalty Score: 65
+Number of Completed Loans: 0
+Total Borrowed Amount: 200000
+2.
+Artin
+Loyalty Score: 50
+Number of Completed Loans: 0
+Total Borrowed Amount: 0
+3.
+AtlasFoods_Ltd
+Loyalty Score: 50
+Number of Completed Loans: 0
+Total Borrowed Amount: 0

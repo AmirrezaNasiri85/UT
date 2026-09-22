@@ -1,0 +1,9 @@
+POST signup ? role chef username "paria" password "pass"
+POST recipe ? title "Simple Eggs" ingredients "eggs:2" steps "Fry"
+POST logout ?
+POST signup ? role visitor username "taha" password "pass"
+POST suggestion ? add_ingredient recipe "Simple Eggs" ingredient "salt" amount 1
+POST suggestion ? add_ingredient recipe "Simple Eggs" ingredient "pepper" amount 1
+POST suggestion ? modify_ingredient recipe "Simple Eggs" ingredient "eggs" amount 4
+POST logout ?
+POST login ? username "paria" password "pass"

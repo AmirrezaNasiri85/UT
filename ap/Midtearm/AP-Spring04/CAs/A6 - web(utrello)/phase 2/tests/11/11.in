@@ -1,0 +1,29 @@
+POST signup ? username "hostUser" password "hostPass"
+POST periodic_event ? start_date 1405/01/10 end_date 1405/01/12 start_time 10 duration 2 type Daily title "Host Daily Standup" description "Host's routine meeting"
+POST logout ?
+POST signup ? username "guestOne" password "guestOnePass"
+POST event ? date 1405/01/11 start_time 15 duration 1 title "GuestOne Appointment" description "Personal task for GuestOne"
+POST logout ?
+POST signup ? username "guestTwo" password "guestTwoPass"
+POST logout ?
+POST login ? username "hostUser" password "hostPass"
+POST join_event ? guests "guestOne,guestTwo" date 1405/01/10 start_time 10 end_time 11 title "Team Meeting Overlap Host" description "Attempting to schedule over host's periodic event"
+POST join_event ? guests "guestOne,guestTwo" date 1405/01/11 start_time 14 end_time 16 title "Project Sync Alpha" description "Main project discussion"
+POST logout ?
+POST login ? username "guestOne" password "guestOnePass"
+GET join_event ?
+POST confirm_join_event ? invitation_id 1
+POST logout ?
+POST login ? username "guestTwo" password "guestTwoPass"
+GET join_event ?
+POST confirm_join_event ? invitation_id 1
+POST logout ?
+POST login ? username "hostUser" password "hostPass"
+GET report ? from 1405/01/10 to 1405/01/12
+POST logout ?
+POST login ? username "guestOne" password "guestOnePass"
+GET report ? from 1405/01/10 to 1405/01/12
+POST logout ?
+POST login ? username "guestTwo" password "guestTwoPass"
+GET report ? from 1405/01/10 to 1405/01/12
+POST logout ?

@@ -1,0 +1,99 @@
+OK
+Permission Denied
+OK
+OK
+Bad Request
+Holiday Found
+Overlap
+Holiday Found
+Holiday Found
+Overlap
+OK
+periodic_event "Meeting" on 1404/01/02 from 15 for 1 hours Weekly:
+periodic_event "Meeting" on 1404/01/03 from 15 for 1 hours Weekly:
+periodic_event "Meeting" on 1404/01/04 from 15 for 1 hours Weekly:
+periodic_event "Meeting" on 1404/01/05 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/05 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/01/06 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/01/07 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/01/08 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/01/09 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/09 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/01/10 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/10 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/01/11 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/11 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/01/12 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/12 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/01/13 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/01/14 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/01/15 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/01/16 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/16 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/01/17 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/17 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/01/18 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/18 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/01/19 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/19 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/01/20 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/01/21 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/01/22 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/01/23 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/23 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/01/24 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/24 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/01/25 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/25 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/01/27 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/01/28 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/01/29 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/01/30 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/01/30 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/02/01 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/02/01 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/02/02 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/02/02 from 21 for 2 hours Daily: "description"
+periodic_event "Meeting" on 1404/02/03 from 15 for 1 hours Weekly:
+periodic_event "dailyyyyyyyy" on 1404/02/03 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/04 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/05 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/06 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/07 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/08 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/09 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/10 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/11 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/12 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/13 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/14 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/15 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/16 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/18 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/19 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/21 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/22 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/23 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/24 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/25 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/26 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/27 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/28 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/29 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/30 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/03/01 from 21 for 2 hours Daily: "description"
+event "rEvent#1" on 1404/03/29 from 17 for 6 hours: "fopdskfsdmfmd(((()))) sfmsdpfmdspmfspdmfdsp"
+Bad Request
+Empty
+Empty
+periodic_event "dailyyyyyyyy" on 1404/02/21 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/22 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/23 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/24 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/25 from 21 for 2 hours Daily: "description"
+periodic_event "dailyyyyyyyy" on 1404/02/26 from 21 for 2 hours Daily: "description"
+event "rEvent#1" on 1404/03/29 from 17 for 6 hours: "fopdskfsdmfmd(((()))) sfmsdpfmdspmfspdmfdsp"
+periodic_event "dailyyyyyyyy" on 1404/03/01 from 21 for 2 hours Daily: "description"
+event "rEvent#1" on 1404/03/29 from 17 for 6 hours: "fopdskfsdmfmd(((()))) sfmsdpfmdspmfspdmfdsp"
+OK
+Permission Denied

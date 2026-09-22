@@ -1,0 +1,5 @@
+add_product red_pen 10
+add_product blue_pen 100
+add_product notebook 1
+add_product book 11
+show_stock

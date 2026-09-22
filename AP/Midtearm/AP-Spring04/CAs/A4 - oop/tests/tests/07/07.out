@@ -1,0 +1,26 @@
+Template 'temp' was created successfully.
+Test 'life is good:)' was generated successfully.
+life is good:):
+
+1) What is 10 ÷ 2?
+    1. 2
+    2. 5
+    3. 10
+    4. 20
+Your answer: 
+2) What is the Earth's primary energy source?
+    1. Moon
+    2. Stars
+    3. Sun
+    4. Wind
+Your answer: 
+3) What is the unit of force?
+    1. Joule
+    2. Newton
+    3. Watt
+    4. Volt
+Your answer: 
+Finished life is good:).
+Results per attended tests:
+
+life is good:): 2 corrects, 1 incorrects and 0 blanks. Score: 66.666%.

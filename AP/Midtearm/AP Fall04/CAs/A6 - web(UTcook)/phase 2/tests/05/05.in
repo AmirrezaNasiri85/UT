@@ -1,0 +1,4 @@
+POST signup ? role visitor username "mahdi" password "pass456"
+POST add_recommender ? name "egg dishes" ingredients "eggs"
+POST add_recommender ? name "chicken dishes" ingredients "chicken"
+POST add_recommender ? name "egg dishes" ingredients "eggs"

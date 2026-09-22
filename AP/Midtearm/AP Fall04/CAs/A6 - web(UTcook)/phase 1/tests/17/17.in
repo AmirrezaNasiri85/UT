@@ -1,0 +1,16 @@
+POST logout ?
+POST login ? username "nobody" password "nobody"
+POST signup ? role visitor username "parisa2" password "perm123"
+GET recommendations ? name "Calorie based recommender"
+POST recipe ? title "Test" ingredients "eggs:1" steps "test"
+PUT ingredient ? name "eggs" amount 5
+GET report ? type refrigerator_status
+POST logout ?
+POST signup ? role chef username "taha2" password "chefperm"
+GET recommendations ? name "Calorie based recommender"
+PUT ingredient ? name "eggs" amount 5
+GET report ? type refrigerator_status
+POST recipe ? title "Chef Test" ingredients "eggs:2;salt:1" steps "cook eggs;add salt"
+POST logout ?
+POST login ? username "parisa2" password "perm123"
+POST recipe ? title "Visitor Test" ingredients "eggs:1" steps "test"

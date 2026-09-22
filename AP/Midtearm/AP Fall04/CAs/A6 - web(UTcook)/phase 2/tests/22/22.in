@@ -1,0 +1,50 @@
+POST signup ? role chef username "taha" password "pass123"
+POST recipe ? title "Basic Eggs" ingredients "eggs:2;salt:1" steps "Beat eggs;Cook;Season"
+POST recipe ? title "Butter Toast" ingredients "bread:2;butter:1" steps "Toast bread;Spread butter"
+POST recipe ? title "Cheese Sandwich" ingredients "bread:2;cheese:2;butter:1" steps "Butter bread;Add cheese;Grill"
+POST logout ?
+POST signup ? role visitor username "paria" password "pass456"
+POST suggestion ? add_ingredient recipe "Basic Eggs" ingredient "cheese" amount 1
+POST suggestion ? add_ingredient recipe "Basic Eggs" ingredient "pepper" amount 1
+POST suggestion ? modify_ingredient recipe "Basic Eggs" ingredient "eggs" amount 1
+POST suggestion ? modify_ingredient recipe "Butter Toast" ingredient "butter" amount 2
+POST suggestion ? add_ingredient recipe "Cheese Sandwich" ingredient "tomato" amount 1
+POST logout ?
+POST signup ? role visitor username "parisa" password "pass789"
+POST suggestion ? add_ingredient recipe "Basic Eggs" ingredient "milk" amount 1
+POST suggestion ? modify_ingredient recipe "Cheese Sandwich" ingredient "cheese" amount 1
+POST logout ?
+POST login ? username "taha" password "pass123"
+POST logout ?
+POST login ? username "paria" password "pass456"
+POST logout ?
+POST signup ? role visitor username "koorosh" password "pass999"
+POST suggestion ? add_ingredient recipe "Basic Eggs" ingredient "parsley" amount 1
+POST suggestion ? add_ingredient recipe "Cheese Sandwich" ingredient "onion" amount 1
+POST suggestion ? modify_ingredient recipe "Butter Toast" ingredient "bread" amount 1
+POST suggestion ? modify_ingredient recipe "Cheese Sandwich" ingredient "cheese" amount -2
+POST suggestion ? add_ingredient recipe "Basic Eggs" ingredient "salt" amount 0
+POST logout ?
+POST login ? username "taha" password "pass123"
+POST logout ?
+POST signup ? role chef username "mahdi" password "pass222"
+POST recipe ? title "Simple Salad" ingredients "lettuce:2;tomato:1;onion:1;oil:1" steps "Wash veggies;Chop;Mix;Add dressing"
+POST recipe ? title "Quick Soup" ingredients "chicken:1;carrot:1;potato:1;salt:1;pepper:1" steps "Boil water;Add chicken;Add veggies;Simmer;Season"
+POST recipe ? title "Easy Rice" ingredients "rice:2;salt:1;butter:1" steps "Wash rice;Boil;Add butter;Serve"
+POST logout ?
+POST signup ? role visitor username "amirreza" password "pass444"
+POST suggestion ? add_ingredient recipe "Simple Salad" ingredient "cheese" amount 1
+POST suggestion ? add_ingredient recipe "Simple Salad" ingredient "pepper" amount 1
+POST suggestion ? modify_ingredient recipe "Simple Salad" ingredient "lettuce" amount 1
+POST suggestion ? add_ingredient recipe "Quick Soup" ingredient "onion" amount 1
+POST suggestion ? modify_ingredient recipe "Quick Soup" ingredient "chicken" amount 1
+POST suggestion ? add_ingredient recipe "Easy Rice" ingredient "garlic" amount 1
+POST suggestion ? modify_ingredient recipe "Easy Rice" ingredient "rice" amount 1
+POST logout ?
+POST signup ? role visitor username "test_user" password "pw"
+PUT ingredient ? name "not_ingredient" amount 1
+PUT ingredient ? name "eggs" amount -1
+PUT ingredient ? name "eggs" amount 0
+PUT ingredient ? name "eggs" amount 2
+GET report ? type refrigerator_status
+POST logout ?

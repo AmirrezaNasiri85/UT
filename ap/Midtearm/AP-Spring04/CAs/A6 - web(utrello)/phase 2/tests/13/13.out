@@ -1,0 +1,29 @@
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+1: "Talk" - 1404/07/20 - 14 - 15
+2: "Workshop" - 1404/07/20 - 14 - 16
+3: "Morning" - 1404/07/21 - 9 - 10
+OK
+Overlap
+OK
+OK
+Empty
+OK
+OK
+join_event "Talk" on 1404/07/20 from 14 to 15 hosted by "parisa": "chat"
+OK
+OK
+Empty
+OK

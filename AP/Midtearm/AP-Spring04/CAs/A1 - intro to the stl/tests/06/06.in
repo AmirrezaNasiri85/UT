@@ -1,0 +1,5 @@
+add_task task1 4
+add_employee eve
+assign_employee task1 eve
+finish_task task1
+report employee eve

@@ -1,0 +1,10 @@
+POST signup ? role chef username "taha" password "pass123"
+POST recipe ? title "Test Recipe" ingredients "eggs:2;butter:1" steps "step1;step2"
+POST logout ?
+POST signup ? role visitor username "mahdi" password "pass456"
+POST suggestion ? add_ingredient recipe "Test Recipe" ingredient "salt" amount 5
+POST suggestion ? add_ingredient recipe "Test Recipe" ingredient "eggs" amount 2
+POST suggestion ? add_ingredient recipe "Non Existent" ingredient "salt" amount 5
+POST logout ?
+POST suggestion ? add_ingredient recipe "Test Recipe" ingredient "salt" amount 5
+POST login ? username "taha" password "pass123"

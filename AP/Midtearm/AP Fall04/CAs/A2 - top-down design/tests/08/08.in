@@ -1,0 +1,13 @@
+listen_song Mahdi 5
+listen_song Taha 5
+listen_song Mehrad 7
+listen_song Mehrad 12
+listen_song Kosar 20
+create_playlist my_playlist Saul 5
+create_playlist my_playlist Erfan 6
+listen_playlist Erfan my_playlist Erfan
+recommend_song Reza
+recommend_song Amir
+recommend_song Walter
+create_playlist my_playlist Hank 3
+create_playlist my_playlist Moein 5

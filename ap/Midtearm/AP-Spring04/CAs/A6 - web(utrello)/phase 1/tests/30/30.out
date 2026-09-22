@@ -1,0 +1,159 @@
+Not Found
+Bad Request
+Bad Request
+Bad Request
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+Permission Denied
+OK
+OK
+OK
+OK
+OK
+OK
+Bad Request
+OK
+OK
+Not Found
+Permission Denied
+Not Found
+Bad Request
+OK
+Permission Denied
+Bad Request
+Bad Request
+Not Found
+Holiday Found
+OK
+Bad Request
+Overlap
+OK
+Bad Request
+OK
+OK
+OK
+OK
+event "event2#user1" on 1404/01/29 from 9 for 2 hours:
+event "event3#user1" on 1404/08/29 from 9 for 2 hours:
+event "event1#user1" on 1404/10/25 from 10 for 2 hours: "CA class"
+event "event5#user1" on 1409/02/18 from 11 for 2 hours:
+event "event4#user1" on 1409/02/18 from 14 for 1 hours:
+event "event6#user1" on 1409/05/30 from 12 for 1 hours: "mkfdsmfmklfmdsklfmdsklfm"
+Empty
+OK
+OK
+OK
+OK
+Bad Request
+Bad Request
+OK
+task "task4#user1" on 1404/05/27 at 15: "Zoo"
+task "task1#user1" on 1405/01/27 at 8: "Loo"
+task "task3#user1" on 1405/02/27 at 16:
+task "task1#user1" on 1408/12/14 at 12: "New Year"
+task "task1#user1" on 1405/01/27 at 8: "Loo"
+task "task3#user1" on 1405/02/27 at 16:
+task "task1#user1" on 1408/12/14 at 12: "New Year"
+event "event5#user1" on 1409/02/18 from 11 for 2 hours:
+event "event4#user1" on 1409/02/18 from 14 for 1 hours:
+event "event6#user1" on 1409/05/30 from 12 for 1 hours: "mkfdsmfmklfmdsklfmdsklfm"
+Overlap
+Bad Request
+Bad Request
+OK
+Bad Request
+Overlap
+Overlap
+OK
+periodic_event "pevent1#user1" on 1410/06/11 from 10 for 5 hours Weekly: "weekly event"
+periodic_event "pevent1#user1" on 1410/06/12 from 10 for 5 hours Weekly: "weekly event"
+periodic_event "pevent1#user1" on 1410/06/18 from 10 for 5 hours Weekly: "weekly event"
+periodic_event "pevent1#user1" on 1410/06/19 from 10 for 5 hours Weekly: "weekly event"
+periodic_event "pevent1#user1" on 1410/06/25 from 10 for 5 hours Weekly: "weekly event"
+periodic_event "pevent2#user1" on 1410/08/14 from 16 for 1 hours Daily: "daily event"
+periodic_event "pevent2#user1" on 1410/08/15 from 16 for 1 hours Daily: "daily event"
+periodic_event "pevent2#user1" on 1410/08/16 from 16 for 1 hours Daily: "daily event"
+periodic_event "pevent2#user1" on 1410/08/17 from 16 for 1 hours Daily: "daily event"
+periodic_event "pevent2#user1" on 1410/08/18 from 16 for 1 hours Daily: "daily event"
+periodic_event "pevent2#user1" on 1410/08/19 from 16 for 1 hours Daily: "daily event"
+periodic_event "pevent2#user1" on 1410/08/20 from 16 for 1 hours Daily: "daily event"
+event "event2#user1" on 1404/01/29 from 9 for 2 hours:
+task "task4#user1" on 1404/05/27 at 15: "Zoo"
+event "event3#user1" on 1404/08/29 from 9 for 2 hours:
+event "event1#user1" on 1404/10/25 from 10 for 2 hours: "CA class"
+task "task1#user1" on 1405/01/27 at 8: "Loo"
+task "task3#user1" on 1405/02/27 at 16:
+task "task1#user1" on 1408/12/14 at 12: "New Year"
+event "event5#user1" on 1409/02/18 from 11 for 2 hours:
+event "event4#user1" on 1409/02/18 from 14 for 1 hours:
+event "event6#user1" on 1409/05/30 from 12 for 1 hours: "mkfdsmfmklfmdsklfmdsklfm"
+periodic_event "pevent1#user1" on 1410/06/11 from 10 for 5 hours Weekly: "weekly event"
+periodic_event "pevent1#user1" on 1410/06/12 from 10 for 5 hours Weekly: "weekly event"
+periodic_event "pevent1#user1" on 1410/06/18 from 10 for 5 hours Weekly: "weekly event"
+periodic_event "pevent1#user1" on 1410/06/19 from 10 for 5 hours Weekly: "weekly event"
+periodic_event "pevent1#user1" on 1410/06/25 from 10 for 5 hours Weekly: "weekly event"
+periodic_event "pevent2#user1" on 1410/08/14 from 16 for 1 hours Daily: "daily event"
+periodic_event "pevent2#user1" on 1410/08/15 from 16 for 1 hours Daily: "daily event"
+periodic_event "pevent2#user1" on 1410/08/16 from 16 for 1 hours Daily: "daily event"
+periodic_event "pevent2#user1" on 1410/08/17 from 16 for 1 hours Daily: "daily event"
+periodic_event "pevent2#user1" on 1410/08/18 from 16 for 1 hours Daily: "daily event"
+periodic_event "pevent2#user1" on 1410/08/19 from 16 for 1 hours Daily: "daily event"
+periodic_event "pevent2#user1" on 1410/08/20 from 16 for 1 hours Daily: "daily event"
+Bad Request
+Empty
+task "task1#user1" on 1408/12/14 at 12: "New Year"
+Bad Request
+Empty
+OK
+Permission Denied
+Permission Denied
+Not Found
+OK
+OK
+OK
+OK
+Not Found
+Bad Request
+OK
+OK
+OK
+Permission Denied
+OK
+OK
+Not Found
+OK
+task "task1#user7" on 1404/04/04 at 22: "edited"
+OK
+Permission Denied
+Permission Denied
+Not Found
+OK
+Bad Request
+Bad Request
+Bad Request
+Not Found
+Holiday Found
+OK
+Bad Request
+Bad Request
+Overlap
+Holiday Found
+event "event1#user5" on 1404/04/28 from 17 for 3 hours: "  ** * *** * "
+periodic_event "pevent" on 1404/07/29 from 7 for 2 hours Weekly:
+periodic_event "pevent" on 1404/08/13 from 7 for 2 hours Weekly:
+Empty
+Bad Request
+Empty
+Bad Request
+event "event1#user5" on 1404/04/28 from 17 for 3 hours: "  ** * *** * "
+OK

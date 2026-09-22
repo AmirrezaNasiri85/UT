@@ -1,0 +1,7 @@
+POST signup ? role chef username "parisa" password "pass"
+POST recipe ? title "Egg Dish" ingredients "eggs:2;salt:1" steps "Cook"
+POST logout ?
+POST signup ? role visitor username "taha" password "pass"
+PUT ingredient ? name "eggs" amount 10
+PUT ingredient ? name "flour" amount 200
+PUT ingredient ? name "salt" amount 50

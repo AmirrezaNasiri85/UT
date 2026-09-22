@@ -1,0 +1,63 @@
+POST event ? date 1404/01/11      title   "event1#user2"      start_time 9  duration 2
+POST signUp ?  password "alterkvj" username  "testUser#1"
+POS sgnup ?  password "alterkvj" username  "testUser#1"
+POST signup  password "alterkvj" username  "testUser#1"
+POST signup  ? password "alterkvj" username  "testUser#1"
+POST logout ?
+POST signup  ? password "987654" username  "testUser#1"
+POST signup  ? password "987654" username  "testUser#2"
+POST logout ?
+POST signup  ? password "sdknfdsjf" username  "testUser#3"
+POST Login ? username "testUser#2"   password "987654"
+POST logout ?
+POST login ? username "testUser#2"   password "987654"
+POST  login  ? "testUser#1"  "alterkvj"
+POST  login  ?  username  "testUser#1"  password "alterkvj"
+POST  event ? date 1406/01/10    title   "event1#user2" description " fmwepmfom   ewclzcl;efo    "  start_time 9  duration 2
+POST  event ? date 1406/01/11    title   "event1#user2"    description " fmwepmfom   ewclzcl;efo    "  start_time 9  duration 2
+POST  event ? date 1406/01/11    title   "event1#user2"      duration 2
+POST event ?    title   "event1#user2"      start_time 8  duration 4 date 1406/01/11
+POST event ?  title   "event2#user2"  start_time 11  duration 4 date 1406/01/11
+POST  event ?   start_time 21 duration 1   start_date   1404/02/02  end_date 1404/03/03   type  Daily    title "Pevent1#user2"  description  "E pluribus unum"
+POST    periodic_event ?   start_time 21  duration 1   start_date   1404/02/02  end_date 1404/02/28  type  Daily    title "Pevent1#user2"   description  "E pluribus unum"
+POST   periodic_event ?   start_time 20 duration 5    type  Yearly   start_date   1404/01/01   end_date 1410/01/10   title "Pevent2#user2"
+POST    periodic_event   ?   start_time 25 duration 5    type  Yearly   start_date   1404/09/06    end_date 1411/01/01  title "Pevent1#user2"
+POST    periodic_event   ?   start_time 23   duration 5    type  Yearly   start_date   1404/09/06    end_date 1411/01/01  title "Pevent2#user2"
+POST    periodic_event   ?   day 6 start_time 3  duration 2    start_date   1405/05/06  end_date 1408/06/19  type  Monthly  title "Pevent3#user2"
+POST periodic_event  ?   start_time 4 duration 2    start_date   1405/07/06  type  Monthly         title "Pevent3#user2"
+POST report ? from 1404/01/01 to 1430/01/01
+GET report  ? to 1430/01/01
+GET report  ?  from 1404/01/01 to 1404/02/01
+GET report  ?  from 1405/08/06 to 1407/01/12
+GET report  ?   to 1410/01/12  type task
+GET report  ?  1404/01/12
+GET report  ?   from 1404/01/12
+GET report   ?          to    1405/01/01
+POST logout ?
+POST logout ?
+POST signup  ? password "alterkvj" username  "testUser#1"
+POST login  ? username  "testUser#1" password "alterkvj"
+POST task ?  date 1404/03/03   description "AI CA#3"  time 15
+POST task ?  date 1404/03/03   title "task1#user1"
+POST task ?  date 1404/03/03   description "AI CA#3"  time 15
+POST task ?  date 1404/03/03   description "AI CA#3"  time 15  title "task1#user1"
+POST task ?  time 12  title "task2#user1"  date 1404/03/03 
+POST task ?  date 1404/09/01  time 14  title "task3#user1"  description "AI CA#3"
+POST task ?  date 1404/08/01  time 12  title "task4#user1"
+delete task ? task_id 3
+DELETE task ? task_id 3
+GET report   ? to  1440/12/12
+POST logout ?
+POST login ? username "testUser#2"   password "987654"
+POST task ?  date 1440/09/15  title "task1#user2" time 17 description "kfmsdvklvnk*^@*^#lmvlkwrm"
+POST task ?  date 1407/12/18  title "task2#user2" time 2
+PUT task ? task_id 3 date 1408/04/16 time 4 title "Happy" description "New Year"
+PUT task ? task_id 2 date 1408/04/16 time 19 title "Happy" description "New Year"
+PUT task ? id 1 time 1
+PUT task ? task_id 1 time 1
+GET report   ? type task   to  1440/12/12
+GET report   ?  to  1439/01/01
+POST logout 
+POST logout ?
+POST logout ?
+POST logout ?

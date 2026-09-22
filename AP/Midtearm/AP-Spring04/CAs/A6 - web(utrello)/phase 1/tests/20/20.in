@@ -1,0 +1,59 @@
+POST login ? username "reza" password "123"
+POST signup ? username "reza" password "123"
+POST login ? username "reza" password "123"
+GET report ? to 1404/01/02
+POST task ? date 1404/01/02 time 10 title "T1"
+POST task ? date 1404/01/02 time 11 title "T2" description "d2"
+GET report ? from 1404/01/02 to 1404/01/03 type task
+PUT task ? task_id 1 time 12
+DELETE task ? task_id 3
+POST logout ?
+POST task ? date 1404/01/03 time 10 title "ShouldFail"
+POST login ? username "reza" password "123"
+POST event ? date 1404/01/26 start_time 9 duration 1 title "Camp"
+POST periodic_event ? start_date 1404/01/14 end_date 1404/01/20 start_time 9 duration 1 type Daily title "Daily"
+POST event ? date 1404/01/15 start_time 9 duration 1 title "OverlapTest1"
+POST event ? date 1404/01/15 start_time 10 duration 1 title "NonOverlap"
+POST periodic_event ? start_date 1404/01/15 end_date 1404/01/16 start_time 9 duration 1 type Daily title "DailyPartial"
+POST periodic_event ? start_date 1404/02/01 end_date 1404/02/30 start_time 9 duration 0 type Daily title "ZeroDur"
+POST periodic_event ? start_date 1404/02/01 end_date 1404/02/30 start_time 24 duration 1 type Daily title "BadHour"
+POST periodic_event ? start_date 1404/02/01 end_date 1404/02/30 start_time 9 duration 1 type Yearly title "BadType"
+GET report ? from 1404/01/14 to 1404/01/15
+POST logout ?
+POST signup ? username "mina" password "m1"
+POST login ? username "mina" password "m1"
+POST periodic_event ? start_date 1404/01/04 end_date 1404/01/15 start_time 9 duration 1 type Weekly week_days Monday,Wednesday title "Class"
+POST event ? date 1404/01/06 start_time 9 duration 1 title "OverlapWithClass"
+POST event ? date 1404/01/06 start_time 10 duration 1 title "FreeMinaEvent"
+GET report ? from 1404/01/04 to 1404/01/07 type event
+DELETE task ? task_id 1
+POST task ? date 1404/01/07 time 23 title "LateTask" description "zzz"
+PUT task ? task_id 1 date 1404/01/07 time 24
+PUT task ? task_id 2 title "none"
+GET report ? from 1404/01/01 to 1404/01/30 type task
+POST logout ?
+POST login ? username "jack" password "j1"
+POST signup ? username "jack" password "j1"
+POST login ? username "jack" password "j1"
+POST logout ?
+POST signup ? username "jack" password "j1"
+POST login ? username "jack" password "j1"
+POST login ? username "jack" password "wrong"
+POST login ? username "jack" password "j1"
+POST event ? date 1404/01/26 start_time 9 duration 1 title "HolidayJack"
+POST event ? date 1404/01/14 start_time 25 duration 1 title "BadHour"
+POST task ? date 1404/01/14 time -1 title "NegativeTime"
+PUT task ? task_id 1 title "bad"
+DELETE task ? task_id 1
+POST task ? date 1404/01/14 time 20 title "JackTask"
+GET report ? to 1404/01/14
+POST logout ?
+POST logout ?
+PUT task ? task_id 1 title "none"
+DELETE task ? task_id 1
+GET report ? to 1404/01/14
+POST login ? username "jack" password "j1"
+POST login ? username "john" password "pw2"
+POST periodic_event ? start_date 1404/01/01 end_date 1404/01/30 start_time 22 duration 2 type Weekly week_days "" title "EmptyWeek"
+POST periodic_event ? start_date 1404/01/01 end_date 1404/01/30 start_time 22 duration 2 type Weekly week_days Saturday,Diamond title "BadWeekWord"
+POST logout ?

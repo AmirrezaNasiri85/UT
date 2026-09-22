@@ -1,0 +1,14 @@
+add_task t1 1
+add_task t2 2
+add_task t3 3
+add_employee alice
+add_employee bob
+assign_employee t1 alice
+assign_employee t2 bob
+assign_employee t3 alice
+assign_employee t3 bob
+finish_task t1
+report all
+report ongoing
+report employee alice
+report employee bob

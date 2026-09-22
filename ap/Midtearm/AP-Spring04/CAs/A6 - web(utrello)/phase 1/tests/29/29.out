@@ -1,0 +1,236 @@
+Permission Denied
+Not Found
+Bad Request
+Bad Request
+OK
+OK
+Bad Request
+OK
+OK
+OK
+Not Found
+OK
+OK
+Permission Denied
+Permission Denied
+Holiday Found
+OK
+Bad Request
+Overlap
+OK
+Bad Request
+Holiday Found
+Bad Request
+Bad Request
+Bad Request
+Holiday Found
+Bad Request
+Not Found
+periodic_event "Pevent1#user2" on 1404/02/02 from 21 for 1 hours Daily: "E pluribus unum"
+periodic_event "Pevent1#user2" on 1404/02/03 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/04 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/05 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/06 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/07 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/08 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/09 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/10 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/11 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/12 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/13 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/14 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/15 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/16 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/18 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/19 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/21 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/22 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/23 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/24 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/25 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/26 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/27 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/28 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent3#user2" on 1405/05/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/07/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/08/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/09/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/10/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/11/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/12/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/01/06 from 3 for 2 hours Monthly:
+event "event1#user2" on 1406/01/11 from 9 for 2 hours: " fmwepmfom   ewclzcl;efo    "
+event "event2#user2" on 1406/01/11 from 11 for 4 hours:
+periodic_event "Pevent3#user2" on 1406/02/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/03/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/04/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/05/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/06/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/07/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/08/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/09/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/10/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/11/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/12/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/01/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/02/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/03/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/04/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/05/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/06/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/07/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/08/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/09/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/10/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/11/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/12/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1408/01/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1408/02/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1408/03/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1408/04/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1408/05/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1408/06/06 from 3 for 2 hours Monthly:
+Empty
+periodic_event "Pevent3#user2" on 1405/08/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/09/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/10/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/11/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/12/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/01/06 from 3 for 2 hours Monthly:
+event "event1#user2" on 1406/01/11 from 9 for 2 hours: " fmwepmfom   ewclzcl;efo    "
+event "event2#user2" on 1406/01/11 from 11 for 4 hours:
+periodic_event "Pevent3#user2" on 1406/02/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/03/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/04/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/05/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/06/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/07/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/08/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/09/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/10/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/11/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/12/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/01/06 from 3 for 2 hours Monthly:
+Empty
+Bad Request
+Bad Request
+periodic_event "Pevent1#user2" on 1404/02/02 from 21 for 1 hours Daily: "E pluribus unum"
+periodic_event "Pevent1#user2" on 1404/02/03 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/04 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/05 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/06 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/07 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/08 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/09 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/10 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/11 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/12 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/13 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/14 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/15 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/16 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/18 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/19 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/21 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/22 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/23 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/24 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/25 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/26 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/27 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/28 from 21 for 1 hours Daily: "E pluribus unum" 
+OK
+Permission Denied
+Bad Request
+OK
+Bad Request
+Bad Request
+Bad Request
+OK
+OK
+OK
+OK
+Bad Request
+OK
+task "task2#user1" on 1404/03/03 at 12:
+task "task1#user1" on 1404/03/03 at 15: "AI CA#3"
+task "task4#user1" on 1404/08/01 at 12:
+OK
+OK
+OK
+OK
+Not Found
+OK
+Bad Request
+OK
+task "Happy" on 1408/04/16 at 19: "New Year"
+task "task1#user2" on 1440/09/15 at 1: "kfmsdvklvnk*^@*^#lmvlkwrm"
+periodic_event "Pevent1#user2" on 1404/02/02 from 21 for 1 hours Daily: "E pluribus unum"
+periodic_event "Pevent1#user2" on 1404/02/03 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/04 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/05 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/06 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/07 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/08 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/09 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/10 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/11 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/12 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/13 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/14 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/15 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/16 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/18 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/19 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/21 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/22 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/23 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/24 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/25 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/26 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/27 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent1#user2" on 1404/02/28 from 21 for 1 hours Daily: "E pluribus unum" 
+periodic_event "Pevent3#user2" on 1405/05/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/07/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/08/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/09/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/10/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/11/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1405/12/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/01/06 from 3 for 2 hours Monthly:
+event "event1#user2" on 1406/01/11 from 9 for 2 hours: " fmwepmfom   ewclzcl;efo    "
+event "event2#user2" on 1406/01/11 from 11 for 4 hours:
+periodic_event "Pevent3#user2" on 1406/02/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/03/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/04/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/05/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/06/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/07/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/08/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/09/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/10/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/11/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1406/12/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/01/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/02/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/03/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/04/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/05/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/06/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/07/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/08/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/09/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/10/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/11/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1407/12/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1408/01/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1408/02/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1408/03/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1408/04/06 from 3 for 2 hours Monthly:
+task "Happy" on 1408/04/16 at 19: "New Year"
+periodic_event "Pevent3#user2" on 1408/05/06 from 3 for 2 hours Monthly:
+periodic_event "Pevent3#user2" on 1408/06/06 from 3 for 2 hours Monthly:
+Bad Request
+OK
+Permission Denied
+Permission Denied

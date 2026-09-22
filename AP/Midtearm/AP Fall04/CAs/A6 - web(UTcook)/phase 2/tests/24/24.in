@@ -1,0 +1,35 @@
+POST signup ? role chef username "taha" password "pass"
+POST recipe ? title "Test Recipe" ingredients "eggs:1;salt:1" steps "Cook"
+POST logout ?
+POST signup ? role visitor username "paria" password "pass"
+POST like ? recipe "Nonexistent Recipe"
+POST like ? recipe "Test Recipe"
+POST suggestion ? add_ingredient recipe "Nonexistent" ingredient "cheese" amount 1
+POST suggestion ? add_ingredient recipe "Test Recipe" ingredient "eggs" amount 1
+POST suggestion ? add_ingredient recipe "Test Recipe" ingredient "cheese" amount 0
+POST suggestion ? add_ingredient recipe "Test Recipe" ingredient "cheese" amount -5
+POST suggestion ? modify_ingredient recipe "Nonexistent" ingredient "salt" amount 1
+POST suggestion ? modify_ingredient recipe "Test Recipe" ingredient "nonexistent_ing" amount 1
+POST suggestion ? modify_ingredient recipe "Test Recipe" ingredient "salt" amount 0
+POST suggestion ? modify_ingredient recipe "Test Recipe" ingredient "salt" amount -10
+POST add_recommender ? name "test rec" ingredients "eggs"
+POST add_recommender ? name "test rec" ingredients "salt"
+POST logout ?
+POST login ? username "taha" password "pass"
+POST logout ?
+POST signup ? role visitor username "kosar" password "pass"
+POST logout ?
+POST like ? recipe "Test Recipe"
+POST suggestion ? add_ingredient recipe "Test Recipe" ingredient "milk" amount 1
+POST add_recommender ? name "new rec" ingredients "eggs"
+GET report ? type most_liked count 0
+GET report ? type most_liked count -1
+GET report ? type most_liked
+POST login ? username "paria" password "pass"
+POST like ? recipe "Nonexistent Recipe"
+POST suggestion ? add_ingredient recipe "Test Recipe" ingredient "salt" amount 2
+POST suggestion ? modify_ingredient recipe "Test Recipe" ingredient "salt" amount 2
+POST logout ?
+POST login ? username "taha" password "pass"
+GET report ? type most_liked count 2
+POST logout ?

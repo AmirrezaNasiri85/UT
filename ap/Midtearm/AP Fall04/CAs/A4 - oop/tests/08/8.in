@@ -1,0 +1,11 @@
+open_account Parsa 8654321 3
+transfer_money 7001001 7001003 100000
+grant_loan 123 7001002 6
+pay_installment 123 7001002 -5
+grant_loan 124 7001002 4
+transfer_money 7001002 7001019 50000
+grant_loan 125 7001002 3
+pay_installment 125 7001002 0
+pay_installment 125 7001002 0
+pay_installment 125 7001002 0
+pay_interest

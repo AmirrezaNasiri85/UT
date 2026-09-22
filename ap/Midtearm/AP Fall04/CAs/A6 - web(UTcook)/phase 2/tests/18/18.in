@@ -1,0 +1,10 @@
+POST signup ? role chef username "kosar" password "pass"
+POST recipe ? title "Recipe18" ingredients "eggs:2;flour:100" steps "Mix"
+POST logout ?
+POST signup ? role visitor username "koorosh" password "pass"
+POST suggestion ? add_ingredient recipe "Recipe18" ingredient "eggs" amount 1
+POST suggestion ? modify_ingredient recipe "Recipe18" ingredient "butter" amount 50
+POST suggestion ? add_ingredient recipe "NonExistent" ingredient "salt" amount 1
+POST suggestion ? modify_ingredient recipe "Recipe18" ingredient "flour" amount 200
+POST logout ?
+POST login ? username "kosar" password "pass"

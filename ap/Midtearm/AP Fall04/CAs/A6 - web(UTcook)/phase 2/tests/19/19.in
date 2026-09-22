@@ -1,0 +1,11 @@
+POST signup ? role visitor username "parisa" password "pass"
+PUT ingredient ? name eggs amount 10
+PUT ingredient ? name flour amount 50
+PUT ingredient ? name butter amount 5
+PUT ingredient ? name salt amount 10
+POST add_recommender ? name "egg based" ingredients "eggs"
+POST add_recommender ? name "flour based" ingredients "flour"
+POST add_recommender ? name "combo" ingredients "eggs;flour"
+POST add_recommender ? name "full" ingredients "eggs;flour;butter;salt"
+POST logout ?
+POST login ? username "parisa" password "pass"

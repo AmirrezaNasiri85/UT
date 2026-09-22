@@ -1,0 +1,23 @@
+Permission Denied
+OK
+Empty
+OK
+OK
+Overlap
+OK
+periodic_event "DM" on 1404/01/05 from 13 for 2 hours Weekly: "Class"
+periodic_event "DM" on 1404/01/10 from 13 for 2 hours Weekly: "Class"
+periodic_event "DM" on 1404/01/12 from 13 for 2 hours Weekly: "Class"
+periodic_event "DM" on 1404/01/17 from 13 for 2 hours Weekly: "Class"
+periodic_event "DM" on 1404/01/19 from 13 for 2 hours Weekly: "Class"
+task "gerye" on 1404/11/04 at 4: "gerye kardan shaddddid"
+task "gerye" on 1404/11/04 at 4: "gerye kardan shaddddid"
+periodic_event "DM" on 1404/01/03 from 13 for 2 hours Weekly: "Class"
+periodic_event "DM" on 1404/01/05 from 13 for 2 hours Weekly: "Class"
+periodic_event "DM" on 1404/01/10 from 13 for 2 hours Weekly: "Class"
+periodic_event "DM" on 1404/01/12 from 13 for 2 hours Weekly: "Class"
+periodic_event "DM" on 1404/01/17 from 13 for 2 hours Weekly: "Class"
+periodic_event "DM" on 1404/01/19 from 13 for 2 hours Weekly: "Class"
+task "gerye" on 1404/11/04 at 4: "gerye kardan shaddddid"
+event "polo" on 1404/12/02 from 9 for 2 hours: "get some polo"
+task "gerye" on 1404/11/04 at 4: "gerye kardan shaddddid"

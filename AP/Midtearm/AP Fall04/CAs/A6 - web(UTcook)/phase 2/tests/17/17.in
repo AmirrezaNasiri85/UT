@@ -1,0 +1,17 @@
+POST signup ? role chef username "amirreza" password "pass"
+POST recipe ? title "Test17 A" ingredients "eggs:1" steps "A"
+POST recipe ? title "Test17 B" ingredients "eggs:2" steps "B"
+POST recipe ? title "Test17 C" ingredients "eggs:3" steps "C"
+POST logout ?
+POST signup ? role visitor username "kosar" password "pass"
+POST like ? recipe "Test17 A"
+POST logout ?
+POST signup ? role visitor username "mahdi" password "pass"
+POST like ? recipe "Test17 A"
+POST like ? recipe "Test17 B"
+POST logout ?
+POST signup ? role visitor username "paria" password "pass"
+PUT ingredient ? name "eggs" amount 100
+POST logout ?
+POST login ? username "amirreza" password "pass"
+GET report ? type most_liked count 2

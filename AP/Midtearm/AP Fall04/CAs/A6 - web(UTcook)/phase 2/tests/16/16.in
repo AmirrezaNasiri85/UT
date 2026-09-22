@@ -1,0 +1,13 @@
+POST signup ? role chef username "mahdi" password "pass"
+POST recipe ? title "Chef16A Recipe" ingredients "eggs:1" steps "Cook"
+POST logout ?
+POST signup ? role chef username "babak" password "pass"
+POST recipe ? title "Chef16B Recipe" ingredients "flour:1" steps "Bake"
+POST logout ?
+POST signup ? role visitor username "koorosh" password "pass"
+POST suggestion ? add_ingredient recipe "Chef16A Recipe" ingredient "salt" amount 5
+POST suggestion ? add_ingredient recipe "Chef16B Recipe" ingredient "butter" amount 3
+POST logout ?
+POST login ? username "mahdi" password "pass"
+POST logout ?
+POST login ? username "babak" password "pass"

@@ -1,0 +1,45 @@
+POST signup ? role chef username "taha" password "megapass"
+POST recipe ? title "Mega Breakfast" ingredients "eggs:5;butter:3;salt:2;pepper:2;cheese:3;bread:4;milk:2" steps "Prep all;Beat eggs with milk;Melt butter;Scramble eggs;Add cheese;Toast bread;Season with salt and pepper;Plate beautifully;Serve hot"
+POST recipe ? title "Mega Lunch" ingredients "chicken:3;rice:4;onion:2;garlic:3;oil:2;salt:1;pepper:1;tomato:2;carrot:2" steps "Marinate chicken;Cook rice;Saute aromatics;Grill chicken;Prepare vegetables;Combine all;Season to taste;Garnish;Serve"
+POST recipe ? title "Mega Dinner" ingredients "beef:2;potato:3;carrot:2;tomato:2;onion:2;garlic:2;salt:1;pepper:1;oil:1" steps "Cut beef;Dice vegetables;Brown beef;Saute onion and garlic;Add vegetables;Add tomatoes;Simmer slowly;Season;Serve with sides"
+POST logout ?
+POST signup ? role visitor username "paria" password "pass1"
+POST like ? recipe "Mega Breakfast"
+POST like ? recipe "Mega Breakfast"
+POST like ? recipe "Mega Breakfast"
+POST like ? recipe "Mega Breakfast"
+POST like ? recipe "Mega Breakfast"
+POST like ? recipe "Mega Lunch"
+POST like ? recipe "Mega Lunch"
+POST like ? recipe "Mega Lunch"
+POST like ? recipe "Mega Dinner"
+PUT ingredient ? name "eggs" amount 20
+PUT ingredient ? name "butter" amount 10
+PUT ingredient ? name "salt" amount 10
+PUT ingredient ? name "pepper" amount 10
+PUT ingredient ? name "cheese" amount 10
+PUT ingredient ? name "bread" amount 10
+PUT ingredient ? name "milk" amount 10
+PUT ingredient ? name "chicken" amount 10
+PUT ingredient ? name "rice" amount 15
+PUT ingredient ? name "onion" amount 10
+PUT ingredient ? name "garlic" amount 10
+PUT ingredient ? name "oil" amount 10
+PUT ingredient ? name "tomato" amount 10
+PUT ingredient ? name "carrot" amount 10
+PUT ingredient ? name "beef" amount 10
+PUT ingredient ? name "potato" amount 10
+POST add_recommender ? name "breakfast items" ingredients "eggs;butter;cheese"
+POST add_recommender ? name "lunch items" ingredients "chicken;rice"
+POST add_recommender ? name "dinner items" ingredients "beef;potato;carrot"
+POST add_recommender ? name "all proteins" ingredients "eggs;chicken;beef"
+POST add_recommender ? name "aromatics" ingredients "onion;garlic"
+POST suggestion ? add_ingredient recipe "Mega Breakfast" ingredient "bacon" amount 2
+POST suggestion ? modify_ingredient recipe "Mega Breakfast" ingredient "eggs" amount 2
+POST suggestion ? add_ingredient recipe "Mega Lunch" ingredient "lemon" amount 1
+POST suggestion ? modify_ingredient recipe "Mega Dinner" ingredient "beef" amount 1
+GET recommenders ?
+GET report ? type refrigerator_status
+POST logout ?
+POST signup ? role visitor username "parisa" password "pass2"
+POST like ? recipe "Mega Dinner"

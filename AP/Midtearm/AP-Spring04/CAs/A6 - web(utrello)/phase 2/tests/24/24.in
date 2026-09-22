@@ -1,0 +1,46 @@
+POST signup ?  username "user#1"  password "pass147"
+POST logout ?
+POST signup ?  password "pass147"     username "user#2"
+POST logout   ?
+POST signup ?  password "pass147"     username "user#3"
+POST   logout  ?
+POST signup ?  password "pass147"     username "user#4"
+GET join_event ?
+GET report ?
+GET report ? to 1408/09/05
+POST join_event ? guests "user#1,user#5"  date 1406/07/18   start_time 15 end_time 18 title "Hello" description "World"
+POST join_event ? guests "user#1,user#3,user#2"  date 1406/07/17   start_time 15 end_time 18 title "Hello" description "World"
+POST join_event ? guests "user#1,user#3,user#2"  date 1406/07/18  start_time 15 end_time 18 title "Hello" description "World"
+GET report ?  from 1404/07/23 to  1408/09/05
+POST logout ?
+POST   login ?  username "user#2"  password "pass147"
+GET join_event ?
+POST event ? date 1406/07/18 start_time 13 duration 3 title "Revent"
+POST confirm_join_event ? invitation_id 2
+POST confirm_join_event ?  invitation_id  1
+POST reject_join_event ? invitation_id 1
+GET join_event ?
+GET report ?  from 1404/07/23 to  1408/09/05
+GET report ?   to  1408/09/05 from 1404/07/23 type join_event
+POST logout ?
+POST login ?  password "pass147"  username "user#4"
+GET report ? to 1408/09/05
+POST logout ?
+POST confirm_join_event ? invitation_id 1
+POST   login ?  username "user#1"  password "pass147"
+GET join_event ?
+POST confirm_join_event ? invitation_id 1
+GET join_event ?
+GET report ? to 1408/09/05
+POST logout ?
+POST   login ?  username "user#3"  password "pass147"
+GET join_event ?
+GET report ? to 1408/09/05
+POST reject_join_event ? invitation_id 1
+GET join_event ?
+POST logout ?
+POST login ?  password "pass147"  username "user#4"
+GET report ? to 1408/09/05 type event
+GET report ? to 1408/09/05 type join_event
+GET report ? to 1407/01/01
+POST          logout     ?

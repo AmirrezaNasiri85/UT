@@ -1,0 +1,25 @@
+Template 'hard' was created successfully.
+Could not find template: 'hrad'
+Test 'hi' was generated successfully.
+hi:
+
+1) Which gas do plants absorb?
+    1. Oxygen
+    2. Nitrogen
+    3. Carbon dioxide
+    4. Hydrogen
+Your answer: 
+2) What is 15 - 8?
+    1. 5
+    2. 7
+    3. 9
+    4. 10
+Your answer: 
+Finished hi.
+Results for Chemistry: 
+
+Easy: 0 corrects, 0 incorrects and 0 blanks.
+Medium: 0 corrects, 0 incorrects and 0 blanks.
+Hard: 0 corrects, 1 incorrects and 0 blanks.
+
+Total score: 0.000%.

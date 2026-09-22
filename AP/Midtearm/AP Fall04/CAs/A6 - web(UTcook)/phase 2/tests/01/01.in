@@ -1,0 +1,10 @@
+POST signup ? role chef username "taha" password "pass123"
+POST recipe ? title "Chicken Stir Fry" ingredients "chicken:2;onion:1;garlic:2;oil:1" steps "slice chicken;cook with vegetables"
+POST logout ?
+POST signup ? role visitor username "mahdi" password "pass456"
+POST like ? recipe "Chicken Stir Fry"
+POST like ? recipe "Chicken Stir Fry"
+POST like ? recipe "Chicken Stir Fry"
+POST like ? recipe "Taha Scrambled Eggs"
+POST like ? recipe "Taha Scrambled Eggs"
+POST like ? recipe "Babak Omelet"

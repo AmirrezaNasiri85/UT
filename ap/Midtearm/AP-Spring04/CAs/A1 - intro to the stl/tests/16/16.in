@@ -1,0 +1,9 @@
+add_task multitask 2
+add_employee dave
+add_employee carol
+add_employee bob
+assign_employee multitask dave
+assign_employee multitask carol
+assign_employee multitask bob
+report ongoing
+report employee bob

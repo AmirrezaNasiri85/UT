@@ -1,0 +1,14 @@
+add_task taskA 3
+add_task taskB 2
+add_task taskC 1
+add_employee john
+add_employee jane
+assign_employee taskA john
+assign_employee taskB john
+assign_employee taskB jane
+assign_employee taskC jane
+finish_task taskB
+report all
+report ongoing
+report employee john
+report employee jane

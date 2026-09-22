@@ -1,0 +1,16 @@
+POST signup ? role chef username "elahe" password "recipe123"
+POST recipe ? title "Breakfast Special" ingredients "eggs:4;butter:3;salt:1;pepper:1;cheese:2;bread:4" steps "cook eggs sunny side up;toast bread;melt cheese on bread;add butter;season with salt and pepper;serve hot"
+POST recipe ? title "Lunch Bowl" ingredients "rice:3;chicken:2;carrot:1;onion:1;salt:1;pepper:1;oil:1" steps "cook rice;grill chicken;saute vegetables in oil;combine all;season;serve"
+POST recipe ? title "Dinner Stew" ingredients "beef:2;potato:3;carrot:2;tomato:2;onion:1;garlic:1;salt:1;pepper:1" steps "brown beef;add onion and garlic;add vegetables;add water;simmer for 2 hours;season and serve"
+POST recipe ? title "Quick Snack" ingredients "bread:2;cheese:1;butter:1" steps "butter bread;add cheese;toast until melted"
+POST recipe ? title "Healthy Salad" ingredients "lettuce:2;tomato:2;carrot:1;onion:1;salt:1;oil:1" steps "chop all vegetables;mix in bowl;drizzle oil;add salt;toss well"
+POST logout ?
+POST signup ? role visitor username "amirali" password "food123"
+PUT ingredient ? name "eggs" amount 10
+PUT ingredient ? name "butter" amount 8
+PUT ingredient ? name "salt" amount 5
+PUT ingredient ? name "pepper" amount 5
+PUT ingredient ? name "cheese" amount 4
+PUT ingredient ? name "bread" amount 6
+PUT ingredient ? name "rice" amount 5
+PUT ingredient ? name "chicken" amount 3

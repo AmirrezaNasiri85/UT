@@ -1,0 +1,11 @@
+GET report ? from 1404/01/23 to 1404/11/29
+POST signup ? username "babak" password "kabab"
+GET report ? to 1405/08/23
+POST task ? date 1404/11/04 time 4 title "gerye" description "gerye kardan shaddddid"
+POST periodic_event ? start_date 1404/01/03 end_date 1404/01/21 start_time 13 duration 2 type Weekly week_days Sunday,Tuesday title "DM" description "Class"
+POST event ? date 1404/01/05 start_time 12 duration 2 title "polo" description "get some polo"
+POST event ? date 1404/12/02 start_time 9 duration 2 title "polo" description "get some polo"
+GET report ? from 1404/01/04 to 1404/11/29
+GET report ? to 1404/11/29 type task
+GET report ? to 1404/12/29
+GET report ? from 1404/02/04 to 1404/11/29

@@ -1,0 +1,8 @@
+add_task unassigned1 5
+add_task unassigned2 3
+add_task assigned1 1
+add_employee mark
+assign_employee assigned1 mark
+report all
+report ongoing
+report employee mark

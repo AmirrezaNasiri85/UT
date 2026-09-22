@@ -1,0 +1,5 @@
+add_product red_pen 10
+add_order parisa red_pen 1
+add_order kourosh red_pen 11
+process_orders
+report_pending

@@ -1,0 +1,17 @@
+POST signup ? username "babak" password "kabab"
+POST event ? date 1404/04/23 start_time 8 duration 4 title "lolo" description "get some lolo"
+POST logout ?
+POST signup ? username "gav" password "mowwww"
+POST join_event ? guests "babak" date 1404/04/23 start_time 8 end_time 10 title "jalase kari" description "yek jalase kari"
+POST logout ?
+POST signup ? username "babaee" password "bawww"
+POST join_event ? guests "babak" date 1404/04/23 start_time 14 end_time 16 title "jalase bikari" description "yek jalase geyr kari"
+POST logout ?
+POST login ? username "babak" password "kabab"
+POST confirm_join_event ? invitation-id 1
+POST confirm_join_event ? invitation_id 3
+POST confirm_join_event ? invitation_id 1
+GET join_event ?
+POST confirm_join_event ? invitation_id 1
+POST confirm_join_event ? invitation_id 2
+GET join_event ?

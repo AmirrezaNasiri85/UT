@@ -1,0 +1,6 @@
+POST signup ? role visitor username "babak" password "ivypass"
+GET report ? type refrigerator_status
+PUT ingredient ? name "apple" amount 5
+PUT ingredient ? name "banana" amount 3
+PUT ingredient ? name "apple" amount 2
+GET report ? type refrigerator_status

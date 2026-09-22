@@ -1,0 +1,37 @@
+Permission Denied
+OK
+Permission Denied
+OK
+Bad Request
+Permission Denied
+Bad Request
+OK
+Bad Request
+OK
+Not Found
+Bad Request
+Not Found
+OK
+OK
+Overlap
+Bad Request
+Bad Request
+OK
+Overlap
+OK
+Overlap
+Bad Request
+Bad Request
+event "EventOK" on 1404/01/14 from 9 for 1 hours:
+periodic_event "DailyOK" on 1404/01/14 from 10 for 1 hours Daily:
+periodic_event "DailyOK" on 1404/01/15 from 10 for 1 hours Daily:
+periodic_event "DailyOK" on 1404/01/16 from 10 for 1 hours Daily:
+OK
+Permission Denied
+OK
+OK
+Not Found
+Empty
+OK
+Permission Denied
+Bad Request

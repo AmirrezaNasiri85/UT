@@ -1,0 +1,53 @@
+POST signup ? role chef username "taha" password "chef123"
+POST recipe ? title "Ultimate Breakfast" ingredients "eggs:3;butter:2;salt:1;pepper:1;cheese:2;bread:2" steps "Beat eggs;Melt butter;Scramble eggs;Add cheese;Toast bread;Season and serve"
+POST recipe ? title "Power Lunch" ingredients "chicken:2;rice:2;onion:1;garlic:2;oil:1;salt:1" steps "Cook rice;Grill chicken;Saute onion and garlic;Combine all;Season"
+POST recipe ? title "Healthy Dinner" ingredients "beef:1;potato:2;carrot:2;tomato:1;salt:1;pepper:1" steps "Cut vegetables;Brown beef;Add vegetables;Simmer;Season"
+POST logout ?
+POST signup ? role chef username "mahdi" password "chef456"
+POST recipe ? title "Veggie Delight" ingredients "tomato:2;onion:1;garlic:1;lettuce:2;oil:1" steps "Chop vegetables;Mix together;Add dressing"
+POST recipe ? title "Protein Bowl" ingredients "chicken:1;eggs:2;rice:1;salt:1" steps "Cook proteins;Prepare rice;Combine;Season"
+POST logout ?
+POST signup ? role visitor username "paria" password "food123"
+POST like ? recipe "Ultimate Breakfast"
+POST like ? recipe "Ultimate Breakfast"
+POST like ? recipe "Ultimate Breakfast"
+POST like ? recipe "Power Lunch"
+POST like ? recipe "Power Lunch"
+POST like ? recipe "Healthy Dinner"
+POST like ? recipe "Veggie Delight"
+POST like ? recipe "Veggie Delight"
+POST like ? recipe "Veggie Delight"
+POST like ? recipe "Veggie Delight"
+POST like ? recipe "Protein Bowl"
+PUT ingredient ? name "eggs" amount 10
+PUT ingredient ? name "chicken" amount 5
+PUT ingredient ? name "rice" amount 5
+PUT ingredient ? name "salt" amount 10
+PUT ingredient ? name "butter" amount 5
+PUT ingredient ? name "cheese" amount 5
+POST add_recommender ? name "breakfast lover" ingredients "eggs;butter"
+POST add_recommender ? name "chicken fan" ingredients "chicken"
+POST add_recommender ? name "complete meal" ingredients "eggs;chicken;rice"
+POST logout ?
+POST login ? username "taha" password "chef123"
+GET report ? type most_liked
+GET report ? type most_liked count 2
+POST logout ?
+POST login ? username "mahdi" password "chef456"
+GET report ? type most_liked
+GET report ? type most_liked count 1
+POST logout ?
+POST signup ? role visitor username "parisa" password "food234"
+POST like ? recipe "Veggie Delight"
+POST like ? recipe "Veggie Delight"
+POST like ? recipe "Veggie Delight"
+POST like ? recipe "Ultimate Breakfast"
+POST like ? recipe "Ultimate Breakfast"
+POST like ? recipe "Protein Bowl"
+POST like ? recipe "Protein Bowl"
+POST like ? recipe "Power Lunch"
+PUT ingredient ? name "tomato" amount 4
+PUT ingredient ? name "lettuce" amount 4
+PUT ingredient ? name "beef" amount 2
+POST add_recommender ? name "veggie lover" ingredients "tomato;lettuce"
+POST add_recommender ? name "high protein" ingredients "chicken;beef;eggs"

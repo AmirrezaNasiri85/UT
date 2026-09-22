@@ -1,0 +1,62 @@
+Not Found
+OK
+Permission Denied
+Empty
+OK
+OK
+task "T1" on 1404/01/02 at 10:
+task "T2" on 1404/01/02 at 11: "d2"
+OK
+Not Found
+OK
+Permission Denied
+OK
+Holiday Found
+OK
+Overlap
+OK
+Overlap
+Bad Request
+Bad Request
+Bad Request
+periodic_event "Daily" on 1404/01/14 from 9 for 1 hours Daily:
+periodic_event "Daily" on 1404/01/15 from 9 for 1 hours Daily:
+event "NonOverlap" on 1404/01/15 from 10 for 1 hours:
+OK
+OK
+Permission Denied
+OK
+Overlap
+OK
+event "FreeMinaEvent" on 1404/01/06 from 10 for 1 hours:
+Not Found
+OK
+Bad Request
+Not Found
+task "LateTask" on 1404/01/07 at 23: "zzz"
+OK
+Not Found
+OK
+Permission Denied
+OK
+Bad Request
+OK
+Permission Denied
+Permission Denied
+Holiday Found
+Bad Request
+Bad Request
+Not Found
+Not Found
+OK
+task "JackTask" on 1404/01/14 at 20:
+OK
+Permission Denied
+Permission Denied
+Permission Denied
+Permission Denied
+OK
+Permission Denied
+Bad Request
+Bad Request
+OK

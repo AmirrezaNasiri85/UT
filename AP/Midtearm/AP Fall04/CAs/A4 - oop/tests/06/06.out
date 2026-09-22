@@ -1,0 +1,42 @@
+10000 transferred successfully from Paria to Farjad.
+A 155000 loan granted to Farjad successfully.
+Farjad successfully paid 77500 for one installment.
+A 112500 loan granted to Mani successfully.
+Mani successfully paid 37500 for one installment.
+A 195000 loan granted to Paria successfully.
+Paria successfully paid 48750 for one installment.
+Top 3 debtors report:
+1.
+Paria
+Total Remaining Debt: 146250
+Number of Active Loans: 1
+Largest Loan ID: 202
+Largest Loan Remaining Amount: 146250
+2.
+Farjad
+Total Remaining Debt: 77500
+Number of Active Loans: 1
+Largest Loan ID: 200
+Largest Loan Remaining Amount: 77500
+3.
+Mani
+Total Remaining Debt: 75000
+Number of Active Loans: 1
+Largest Loan ID: 201
+Largest Loan Remaining Amount: 75000
+Top 3 trusted clients report:
+1.
+Artin
+Loyalty Score: 50
+Number of Completed Loans: 0
+Total Borrowed Amount: 0
+2.
+AtlasFoods_Ltd
+Loyalty Score: 50
+Number of Completed Loans: 0
+Total Borrowed Amount: 0
+3.
+Farjad
+Loyalty Score: 50
+Number of Completed Loans: 0
+Total Borrowed Amount: 155000

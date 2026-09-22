@@ -1,0 +1,10 @@
+add_task alpha 2
+add_task beta 2
+add_task gamma 2
+add_employee emma
+add_employee oliver
+assign_employee beta emma
+assign_employee alpha oliver
+assign_employee gamma emma
+assign_employee gamma oliver
+report ongoing

@@ -1,0 +1,24 @@
+POST signup ?    username "user#1"    password "pass"
+POST logout ? 
+POST signup ?    username "user#2"    password "pass"
+POST    logout ?
+POST signup ?    username "user#3"    password "pass"
+POST join_event ? guests "user2,user1" date 1404/04/04 start_time 12 end_time 16 title "Hello" description "World"
+POST join_event ? guests "user#2,user#1" date 1404/04/04 start_time 12 end_time 16 title "Hello" description "World"
+GET           join_event     ?
+POST logout ?
+POST login ? username "user#2"    password "pass"
+POST event ? title "regular event" description "ckdskflmdsfmld"  date 1408/05/27 start_time 11 duration 3
+Get join_event ? 
+GET event ?
+GET           join_event     ?
+GET    join_event  ?
+POST logout ?
+POST login ? username "user#1"    password "pass"
+GET join_event ?
+POST join_event ?  date 1405/10/04 guests "user#2" start_time 21 end_time 22 title "film" description "star wars" 
+POST join_event ?  date 1405/10/05 guests "user#2" start_time 21 end_time 22 title "film" description "star wars" 
+POST logout ?
+POST login ? username "user#2"    password "pass"
+GET join_event ?
+POST logout ?

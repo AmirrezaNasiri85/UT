@@ -1,0 +1,15 @@
+POST signup ? username "dave"   password "xyz"
+POST login  ? username "dave" password "xyz"
+POST logout ? 
+POST signup ? username "dave3"   password "xyz"
+POST signup ? username "dave1"   password "xyz"
+POST signup ? username "dave2"   password "xyz"
+POST login  ? username "dave" password "xyz"
+POST logout ? 
+POST logout ? 
+POST logout ? 
+POST task   ? date 1404/04/04 time 15 title "Boo" description "Doo"
+POST login  ? username "dave" password "xyz"
+POST task   ? date 1404/04/04 time 15 title "Boo" description "Doo"
+PUT task    ? task_id 1 title "Boo Edited"
+DELETE task ? task_id 2

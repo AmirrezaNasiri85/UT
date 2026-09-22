@@ -1,0 +1,7 @@
+POST signup ? role chef username "taha" password "pass123"
+POST like ? recipe "Taha Scrambled Eggs"
+POST logout ?
+POST signup ? role visitor username "mahdi" password "pass456"
+POST like ? recipe "Non Existent Recipe"
+POST logout ?
+POST like ? recipe "Taha Scrambled Eggs"

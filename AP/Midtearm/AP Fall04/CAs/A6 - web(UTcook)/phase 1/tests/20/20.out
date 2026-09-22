@@ -1,0 +1,37 @@
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+Refrigerator inventory for user amirhossein_str1:
+salt:3
+eggs:5
+butter:4
+bread:2
+Match based recommender
+Parisa Egg Sandwich: 
+Ingredients: bread:2, eggs:1, butter:1, salt:1 
+Calories: 575
+Steps:
+Parisa toasts bread slices until crispy golden
+Paria fries egg sunny-side up with a pinch of salt
+Artin spreads butter on warm toast
+Amirreza assembles sandwich with egg between bread
+Mahdis cuts sandwich diagonally and serves
+Dish Beta: 
+Ingredients: butter:2, bread:2 
+Calories: 440
+Steps:
+spread
+toast
+Dish Alpha: 
+Ingredients: eggs:1, salt:1 
+Calories: 255
+Steps:
+crack egg
+season
+OK

@@ -1,0 +1,10 @@
+POST signup ? role visitor username "artin" password "test1"
+PUT ingredient ? name "chicken" amount 5
+PUT ingredient ? name "rice" amount 10
+PUT ingredient ? name "carrot" amount 8
+PUT ingredient ? name "potato" amount 6
+PUT ingredient ? name "salt" amount 10
+PUT ingredient ? name "pepper" amount 5
+PUT ingredient ? name "butter" amount 4
+PUT ingredient ? name "onion" amount 3
+PUT ingredient ? name "garlic" amount 5

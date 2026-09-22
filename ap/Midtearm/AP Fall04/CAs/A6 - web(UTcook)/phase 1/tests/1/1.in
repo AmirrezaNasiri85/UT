@@ -1,0 +1,5 @@
+POST signup ? role chef username "taha" password "bidoobidoo"
+POST recipe ? title "Test Recipe" ingredients "eggs:2;butter:1;salt:1;pepper:1" steps "crack eggs into bowl;whisk with salt and pepper;heat butter in pan;pour eggs and stir gently until cooked"
+POST recipe ? title "Test Recipe" ingredients "eggs:4;butter:2;salt:1;pepper:1" steps "crack eggs;mix;cook"
+POST logout ?
+POST login ? username "taha" password "bidoobidoo"

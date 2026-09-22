@@ -1,0 +1,13 @@
+POST login ? username "carl" password "pw"
+POST signup ? username "carl" password "pw"
+POST login ? username "carl" password "wrong"
+POST login ? username "carl" password "pw"
+POST periodic_event ? start_date 1404/01/01 end_date 1404/01/30 start_time 8 duration 2 type Daily title "Morning"
+POST periodic_event ? start_date 1404/01/01 end_date 1404/01/30 start_time 9 duration 1 type Daily title "Clash"
+POST event ? date 1404/01/02 start_time 7 duration 1 title "Early"
+POST event ? date 1404/01/01 start_time 8 duration 1 title "HolidayClash"
+POST event ? date 1404/01/15 start_time 10 duration 0 title "Zero"
+POST task ? date 1404/01/15 time 8 title "TaskClash"
+GET report ? from 1404/01/01 to 1404/01/02
+POST logout ?
+PUT task ? task_id 1 title "fail"

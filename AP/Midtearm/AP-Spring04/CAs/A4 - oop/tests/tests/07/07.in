@@ -1,0 +1,7 @@
+create_template 'temp'  Math:medium:1 Physics:medium:2
+generate_test 'life is good:)' 'temp'
+attend 'life is good:)'
+2
+3
+1
+report tests

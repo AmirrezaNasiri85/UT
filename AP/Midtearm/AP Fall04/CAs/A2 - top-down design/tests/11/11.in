@@ -1,0 +1,5 @@
+listen_song Mehrad 2
+listen_song Mehrad 5
+create_playlist ProgMix Mehrad 4
+listen_playlist Mehrad ProgMix Mehrad
+recommend_song Mehrad

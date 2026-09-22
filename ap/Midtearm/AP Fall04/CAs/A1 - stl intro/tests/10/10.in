@@ -1,0 +1,11 @@
+add_product red_pen 10
+add_product blue_pen 100
+show_stock
+add_order kourosh red_pen 11
+add_order parisa red_pen 1
+sold_quantity red_pen
+report_pending
+process_orders
+report_pending
+sold_quantity red_pen
+show_stock

@@ -1,0 +1,13 @@
+POST signup ? role chef username "koorosh" password "master123"
+POST recipe ? title "Gourmet Omelette" ingredients "eggs:4;cheese:2;tomato:1;onion:1;butter:2;salt:1;pepper:1" steps "beat eggs;chop vegetables;heat butter;pour eggs;add cheese and vegetables;fold omelette;season;serve hot"
+POST recipe ? title "Comfort Food" ingredients "potato:4;butter:3;milk:1;salt:1;pepper:1;cheese:2" steps "boil potatoes;mash with butter;add milk;mix in cheese;season with salt and pepper;serve warm"
+POST recipe ? title "Asian Stir Fry" ingredients "rice:2;chicken:1;carrot:1;onion:1;garlic:2;oil:2;salt:1;pepper:1" steps "cook rice;slice chicken;chop vegetables;heat oil;stir fry garlic;add chicken;add vegetables;season;serve over rice"
+POST logout ?
+POST signup ? role visitor username "reza" password "foodie123"
+PUT ingredient ? name "eggs" amount 8
+PUT ingredient ? name "cheese" amount 5
+PUT ingredient ? name "tomato" amount 3
+PUT ingredient ? name "onion" amount 4
+PUT ingredient ? name "butter" amount 6
+PUT ingredient ? name "salt" amount 5
+PUT ingredient ? name "pepper" amount 5

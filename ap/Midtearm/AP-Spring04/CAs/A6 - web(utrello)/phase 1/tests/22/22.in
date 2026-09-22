@@ -1,0 +1,19 @@
+POST periodic_event ? start_date 1406/08/26  type  Daily    start_time 13 duration 2 title "eveeeent"   description "aaaaa@##@@@"
+POST signup ? username "test@user"      password "zzvvww12348"
+POST  periodic_event ?  end_date 1406/08/29  start_date 1406/08/26  type  Daily    start_time 13 duration 2 title "eveeeent"   description "aaaaa@##@@@"
+POST   periodic_event ? start_date 1406/12/25 end_date 1406/12/26  type  daily    start_time 13 duration 2 title "eveeeent"   description "aaaaa@##@@@"
+POST    periodic_event ? start_date 1406/12/25 end_date 1406/12/26    start_time 13 duration 2 title "eveeeent"   description "aaaaa@##@@@"
+POST    periodic_event ? type Daily start_date 1406/12/25 end_date 1406/12/26    start_time 13 duration 2 title "eveeeent"   description "aaaaa@##@@@"
+POST    periodic_event   ? type Weekly  week_days Sunday,Monday,Thursday  start_date  1404/04/04   end_date 1404/08/17 start_time 14  duration 3    title "eq"   description "'______'"
+POST    periodic_event   ? type Weekly  week_days thursday  start_date  1410/10/15   end_date 1410/10/29  start_time 14  duration 3    title "eq"   description "'______'"
+POST    periodic_event   ? type Weekly  week_days Thursday  start_date  1410/10/15  start_time 14  duration 3    title "eq"   description "'______'"
+POST    periodic_event   ? type Weekly  week_days Thursday  start_date  1410/10/15   end_date 1410/10/29  start_time 14  duration 3    title "eq"   description "'______'"
+POST    event ? type Yearly  title "lll"   description "   oooo___oooo   "    start_date  1406/04/03  duration 1 start_time 16
+POST    event ? type Yearly  title "lll"   description "   oooo___oooo   "    start_date  1407/10/15  end_date 1412/12/12 duration 1 start_time 16
+POST    periodic_event ? type Yearly  title "lll"   description "   oooo___oooo   "     1406/04/03  duration 1 start_time 16
+POST    periodic_event ? type Monthly        title "dbnkjndncksmdlckmksdmksmdm"      description "   oooo___oooo   "   day 28 start_date  1405/06/28  end_date 1407/12/28  duration 1    start_time 22
+POST    periodic_event ? type Monthly        title "dbnkjndncksmdlckmksdmksmdm"      description "   oooo___oooo   "    day 1 start_date  1415/01/01  end_date 1420/12/05  duration 1    start_time 22
+POST    periodic_event ? type Monthly        title "dbnkjndncksmdlckmksdmksmdm"      description "   oooo___oooo   "    day 1 start_date  1415/01/01  end_date 1420/12/05  duration 3    start_time 9
+POST    periodic_event ? type Daily        title "mdasmdkams"      description "   oooo___oooo   "    start_date  1414/01/01   end_date 1430/01/01 duration 1    start_time 10
+POST    periodic_event ?     title "UUYSYSYSYASA"      start_date  1404/01/01  duration 2    start_time 9
+POST    periodic_event ? type Daily        title "mdasmdkams"       end_date 1430/01/01      start_date  1414/01/01   duration 2    start_time 18

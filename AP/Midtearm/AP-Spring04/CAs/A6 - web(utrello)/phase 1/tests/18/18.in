@@ -1,0 +1,11 @@
+PUTTT task ? task_id 1
+GETX report ? to 1404/01/01
+POST signup ? username "u" password "p"
+POST login ? username "u" password "p"
+POST logout ?
+DELETE unknown ?
+POST logout ?
+POST login ? username "u" password "p"
+DELETE task ? task_id 1
+POST task ? date 1404/07/07 time 20 title "night"
+GET report ? to 1404/07/07

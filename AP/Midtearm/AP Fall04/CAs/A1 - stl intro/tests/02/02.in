@@ -1,0 +1,5 @@
+add_product blue_pen 100
+increase_quantity blue_pen 50
+add_product red_pen 10
+increase_quantity blue_pen 5
+increase_quantity red_pen 9

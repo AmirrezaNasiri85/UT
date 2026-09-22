@@ -1,0 +1,30 @@
+POST signup ?  username "sajjad"  password "123"
+POST logout ?
+POST signup ?  username "erfan"  password "321"
+POST join_event ? guests "sajjad" date 1404/04/04 start_time 12 end_time 13 title "Hello" description "World" 
+POST logout ?
+POST signup ?  username "abolfazl"  password "258"
+POST join_event ? title " sdmfkdms  "  guests "sajjad,Erfan" date 1404/11/14 start_time 12 end_time 13
+POST join_event ? title " sdmfkdms  "  guests "sajjad,erfan" date 1404/11/15 start_time 12 end_time 13
+POST join_event ? title " sdmfkdms  "  guests "sajjad,erfan" date 1404/11/14 start_time 12 end_time 13
+POST logout ?
+POST login ?   password "123"  username "sajjad"
+GET join_event 
+GET join_event ?
+POST confirm_join_event ? invitation_id 3
+POST confirm_join_event ? invitation_id 1
+GET join_event ?
+POST reject_join_event  ? invitation_id 2
+GET report ? to 1406/04/27
+POST logout ?
+POST login ?  username "erfan"  password "321" 
+GET report ? to 1406/04/27
+POST periodic_event ? start_date 1404/11/10 end_date 1404/11/14 start_time 16 duration 2 type Daily title "pEvent" description "+++__+++"
+GET join_event ?
+POST confirm_join_event  ? invitation_id 2
+GET join_event ?
+GET report ? to 1406/04/27
+POST logout ?
+POST login ?  username "abolfazl"  password "258"
+GET report ? to 1406/04/27
+POST logout ?

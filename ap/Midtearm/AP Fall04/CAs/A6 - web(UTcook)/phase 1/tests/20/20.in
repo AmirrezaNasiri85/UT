@@ -1,0 +1,12 @@
+POST signup ? role chef username "erfan_stress" password "stress123"
+POST recipe ? title "Dish Alpha" ingredients "eggs:1;salt:1" steps "crack egg;season"
+POST recipe ? title "Dish Beta" ingredients "butter:2;bread:2" steps "spread;toast"
+POST logout ?
+POST signup ? role visitor username "amirhossein_str1" password "sv1"
+PUT ingredient ? name "eggs" amount 5
+PUT ingredient ? name "salt" amount 3
+PUT ingredient ? name "butter" amount 4
+PUT ingredient ? name "bread" amount 2
+GET report ? type refrigerator_status
+GET recommendations ? name "Match based recommender"
+POST logout ?

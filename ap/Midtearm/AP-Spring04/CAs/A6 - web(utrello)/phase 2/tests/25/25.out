@@ -1,0 +1,37 @@
+OK
+OK
+OK
+OK
+OK
+OK
+Not Found
+Holiday Found
+OK
+OK
+OK
+Bad Request
+1: "Hello" - 1404/04/04 - 12 - 13
+2: " sdmfkdms  " - 1404/11/14 - 12 - 13
+Not Found
+OK
+2: " sdmfkdms  " - 1404/11/14 - 12 - 13
+OK
+join_event "Hello" on 1404/04/04 from 12 to 13 hosted by "erfan": "World"
+OK
+OK
+join_event "Hello" on 1404/04/04 from 12 to 13 hosted by "erfan": "World"
+OK
+2: " sdmfkdms  " - 1404/11/14 - 12 - 13
+OK
+Empty
+join_event "Hello" on 1404/04/04 from 12 to 13 hosted by "erfan": "World"
+periodic_event "pEvent" on 1404/11/10 from 16 for 2 hours Daily: "+++__+++"
+periodic_event "pEvent" on 1404/11/11 from 16 for 2 hours Daily: "+++__+++"
+periodic_event "pEvent" on 1404/11/12 from 16 for 2 hours Daily: "+++__+++"
+periodic_event "pEvent" on 1404/11/13 from 16 for 2 hours Daily: "+++__+++"
+join_event " sdmfkdms  " on 1404/11/14 from 12 to 13 hosted by "abolfazl":
+periodic_event "pEvent" on 1404/11/14 from 16 for 2 hours Daily: "+++__+++"
+OK
+OK
+join_event " sdmfkdms  " on 1404/11/14 from 12 to 13 hosted by "abolfazl":
+OK

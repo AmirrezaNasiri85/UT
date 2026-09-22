@@ -1,0 +1,18 @@
+POST signup ? username "zara" password "z"
+POST login ? username "zara" password "z"
+POST task ? date 1404/06/01 time 9 title "Ztask"
+POST logout ?
+POST login ? username "arya" password "a"
+POST signup ? username "arya" password "a"
+POST login ? username "arya" password "a"
+POST task ? date 1404/06/01 time 9 title "Atask"
+POST logout ?
+POST login ? username "zara" password "wrong"
+POST login ? username "zara" password "z"
+DELETE task ? task_id 1
+GET report ? from 1404/06/01 to 1404/06/01
+POST logout ?
+POST login ? username "arya" password "a"
+PUT task ? task_id 1 title "EditA"
+GET report ? from 1404/06/01 to 1404/06/02
+POST logout ?

@@ -1,0 +1,17 @@
+open_account Borna 8808808 0
+transfer_money 7001019 7001001 210000
+transfer_money 7001003 999999 12345
+transfer_money 999999 7001003 2345
+grant_loan 300 7001016 3
+pay_installment 300 7001016 20
+grant_loan 301 7001016 2
+grant_loan 400 7001007 7
+pay_installment 400 7001007 0
+pay_installment 400 7001007 0
+pay_installment 400 7001007 0
+pay_installment 400 7001007 0
+pay_installment 400 7001007 0
+pay_installment 400 7001007 0
+pay_installment 400 7001007 -2
+grant_loan 500 7001003 2
+pay_interest

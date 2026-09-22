@@ -1,0 +1,8 @@
+POST signup ? role chef username "taha" password "pass"
+POST recipe ? title "Recipe8" ingredients "flour:100;sugar:50" steps "Mix;Bake"
+POST logout ?
+POST signup ? role visitor username "koorosh" password "pass"
+POST suggestion ? add_ingredient recipe "Recipe8" ingredient "salt" amount 10
+POST suggestion ? modify_ingredient recipe "Recipe8" ingredient "flour" amount 200
+POST logout ?
+POST login ? username "taha" password "pass"

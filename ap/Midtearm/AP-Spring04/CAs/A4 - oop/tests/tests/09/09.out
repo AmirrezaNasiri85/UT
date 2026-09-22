@@ -1,0 +1,206 @@
+Template 'Exam' was created successfully.
+Template 'Another One' was created successfully.
+Test 'test 1' was generated successfully.
+test 1:
+
+1) What is H2O?
+    1. Salt
+    2. Oxygen
+    3. Water
+    4. Sugar
+Your answer: 
+2) What is the chemical formula for salt?
+    1. NaCl
+    2. H2O
+    3. CO2
+    4. Fe2O3
+Your answer: 
+3) What is the symbol for gold?
+    1. Go
+    2. Gl
+    3. Au
+    4. Ag
+Your answer: 
+4) What is 10 ÷ 2?
+    1. 2
+    2. 5
+    3. 10
+    4. 20
+Your answer: 
+5) What is 15 - 8?
+    1. 5
+    2. 7
+    3. 9
+    4. 10
+Your answer: 
+6) What is 2 + 3?
+    1. 4
+    2. 5
+    3. 6
+    4. 7
+Your answer: 
+7) What is 8 + 9?
+    1. 15
+    2. 16
+    3. 17
+    4. 18
+Your answer: 
+8) What is the Earth's primary energy source?
+    1. Moon
+    2. Stars
+    3. Sun
+    4. Wind
+Your answer: 
+9) What is the unit of force?
+    1. Joule
+    2. Newton
+    3. Watt
+    4. Volt
+Your answer: 
+8) What is the Earth's primary energy source?
+    1. Moon
+    2. Stars
+    3. Sun <-
+    4. Wind
+Your answer: 
+7) What is 8 + 9?
+    1. 15 <-
+    2. 16
+    3. 17
+    4. 18
+Your answer: 
+6) What is 2 + 3?
+    1. 4
+    2. 5 <-
+    3. 6
+    4. 7
+Your answer: 
+5) What is 15 - 8?
+    1. 5
+    2. 7 <-
+    3. 9
+    4. 10
+Your answer: 
+4) What is 10 ÷ 2?
+    1. 2
+    2. 5
+    3. 10
+    4. 20 <-
+Your answer: 
+3) What is the symbol for gold?
+    1. Go
+    2. Gl
+    3. Au
+    4. Ag <-
+Your answer: 
+2) What is the chemical formula for salt?
+    1. NaCl <-
+    2. H2O
+    3. CO2
+    4. Fe2O3
+Your answer: 
+1) What is H2O?
+    1. Salt
+    2. Oxygen
+    3. Water
+    4. Sugar <-
+Your answer: 
+2) What is the chemical formula for salt?
+    1. NaCl <-
+    2. H2O
+    3. CO2
+    4. Fe2O3
+Your answer: 
+3) What is the symbol for gold?
+    1. Go
+    2. Gl
+    3. Au
+    4. Ag <-
+Your answer: 
+4) What is 10 ÷ 2?
+    1. 2
+    2. 5
+    3. 10
+    4. 20 <-
+Your answer: 
+5) What is 15 - 8?
+    1. 5
+    2. 7 <-
+    3. 9
+    4. 10
+Your answer: 
+6) What is 2 + 3?
+    1. 4
+    2. 5 <-
+    3. 6
+    4. 7
+Your answer: 
+7) What is 8 + 9?
+    1. 15 <-
+    2. 16
+    3. 17
+    4. 18
+Your answer: 
+8) What is the Earth's primary energy source?
+    1. Moon
+    2. Stars
+    3. Sun <-
+    4. Wind
+Your answer: 
+9) What is the unit of force?
+    1. Joule
+    2. Newton
+    3. Watt
+    4. Volt
+Your answer: 
+Finished test 1.
+Results for test 1:
+
+Chemistry: 1 corrects, 1 incorrects and 1 blanks. Score: 33.333%.
+Math: 2 corrects, 1 incorrects and 1 blanks. Score: 50.000%.
+Physics: 2 corrects, 0 incorrects and 0 blanks. Score: 100.000%.
+
+Total results: 5 corrects, 2 incorrects and 2 blanks.
+Total score: 55.555%.
+Test 'test 2' was generated successfully.
+test 2:
+
+1) What is H2O?
+    1. Salt
+    2. Oxygen
+    3. Water
+    4. Sugar
+Your answer: 
+2) What is the symbol for gold?
+    1. Go
+    2. Gl
+    3. Au
+    4. Ag
+Your answer: 
+3) What is the symbol for iron?
+    1. Ir
+    2. Fe
+    3. In
+    4. I
+Your answer: 
+4) What is 8 + 9?
+    1. 15
+    2. 16
+    3. 17
+    4. 18
+Your answer: 
+5) What is the Earth's primary energy source?
+    1. Moon
+    2. Stars
+    3. Sun
+    4. Wind
+Your answer: 
+Finished test 2.
+Total report:
+
+Chemistry: 1 corrects, 4 incorrects and 1 blanks. Score: 16.666%.
+Math: 2 corrects, 2 incorrects and 1 blanks. Score: 40.000%.
+Physics: 2 corrects, 1 incorrects and 0 blanks. Score: 66.666%.
+
+Total results: 5 corrects, 7 incorrects and 2 blanks.
+Total score: 35.714%.

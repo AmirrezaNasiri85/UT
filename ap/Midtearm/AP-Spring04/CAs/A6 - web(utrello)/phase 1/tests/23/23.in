@@ -1,0 +1,20 @@
+POST signup ? username "@user.1" password "User123456!#"
+POST login ? username "@user.1"  password "User123456!#"
+POST  event  ?   start_time 9 duration 1 date 1405/07/07  title "Quiz" description "DLD"
+POST  event  ?   start_time 9 duration 1 date 1406/07/08  title "event#1" description "DLD"
+POST periodic_event ? start_date 1406/06/30  end_date 1406/07/14 start_time 8 duration 3  week_days Tuesday  type Weekly title "Pevent#1" description "quasi"
+POST periodic_event ? start_date 1406/06/30  end_date 1406/07/14 start_time 12 duration 2  week_days Tuesday  type Weekly title "Pevent#1" description "quasi"
+POST periodic_event ? start_date 1406/09/07  end_date 1408/06/11  start_time 8 duration 3  week_days Wednesday,Thursday,Friday  type Weekly title "Pevent#1" description "quasi"
+POST periodic_event ? start_date   1404/02/05  end_date 1408/06/11 type Daily  start_time 9  duration 1   title "Pevent#2"
+POST periodic_event ? start_date   1406/07/07  end_date 1406/07/08 type Daily  start_time 5  duration 12   title "Pevent#2"
+POST periodic_event ?  type Daily  start_date   1404/01/01  end_date 1420/07/08       start_time 21  duration 1   title "Pevent#2"
+POST periodic_event ? start_date   1404/01/02 end_date   1405/11/18  type Yearly  start_time 18  duration 5   title "Pevent#3"
+POST periodic_event ? start_date   1404/07/07 end_date   1408/11/18  type Yearly  start_time 7  duration 3   title "Pevent#3"
+POST periodic_event ? start_date   1405/09/08    end_date 1410/11/18   type Yearly  start_time 9  duration 3   title "Pevent#3"
+POST periodic_event ? start_date   1425/01/01   end_date 1428/11/18  type Yearly  start_time  7 duration 3   title "Pevent#3"
+POST periodic_event ?  title "Pevent#4" start_date   1418/01/01  day 1 end_date 1420/11/18 type Monthly  start_time  20 duration 2
+POST periodic_event ?  title "Pevent#4" start_date   1407/05/24  day 24 end_date  1410/08/22  type Monthly  start_time  8 duration 2
+POST periodic_event ?  title "Pevent#4" start_date   1404/01/25   day 25 end_date  1500/01/01 type Monthly  start_time  14 duration 2
+POST event ? date 1410/11/25  start_time 13 duration 2  title "event#2"
+POST event ? date 1432/11/26  start_time 20 duration 3  title "event#2"
+POST logout ?

@@ -1,0 +1,22 @@
+OK
+Permission Denied
+Bad Request
+OK
+Overlap
+Overlap
+OK
+OK
+Not Found
+OK
+OK
+Overlap
+periodic_event "pay" on 1404/03/05 from 10 for 1 hours Monthly:
+event "free_event" on 1404/03/05 from 11 for 1 hours:
+task "task_at_same" on 1404/03/05 at 11:
+periodic_event "daily1" on 1404/03/06 from 9 for 1 hours Daily:
+periodic_event "daily1" on 1404/03/07 from 9 for 1 hours Daily:
+OK
+Permission Denied
+Permission Denied
+Bad Request
+Permission Denied
