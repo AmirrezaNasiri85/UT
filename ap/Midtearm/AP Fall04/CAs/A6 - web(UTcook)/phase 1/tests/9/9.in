@@ -1,4 +1,0 @@
-POST signup ? role chef username "mahdi" password "henrypass"
-POST recipe ? title "Simple Salad" ingredients "lettuce:2;tomato:1;salt:1" steps "wash lettuce;dice tomato;mix and season"
-POST recipe ? title "Buttered Toast" ingredients "bread:2;butter:2" steps "toast bread;spread butter"
-GET recommendations ? name "Calorie based recommender"

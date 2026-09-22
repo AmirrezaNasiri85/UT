@@ -1,8 +1,0 @@
-POST signup ? role visitor username "parisa" password "pass"
-PUT ingredient ? name eggs amount 50
-PUT ingredient ? name flour amount 100
-PUT ingredient ? name salt amount 20
-POST add_recommender ? name "basic eggs" ingredients "eggs"
-POST add_recommender ? name "baking" ingredients "flour;eggs"
-POST add_recommender ? name "seasoned" ingredients "salt"
-POST add_recommender ? name "basic eggs" ingredients "milk"

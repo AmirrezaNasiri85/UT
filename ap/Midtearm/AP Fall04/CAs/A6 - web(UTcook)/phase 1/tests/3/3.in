@@ -1,6 +1,0 @@
-POST signup ? role visitor username "taha" password "alicepass"
-PUT ingredient ? name "eggs" amount 2
-PUT ingredient ? name "bread" amount 1
-GET report ? type refrigerator_status
-GET recommendations ? name "Match based recommender"
-POST logout ?

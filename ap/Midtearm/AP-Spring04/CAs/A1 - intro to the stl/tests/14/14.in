@@ -1,9 +1,0 @@
-add_task taskx 4
-add_task tasky 3
-add_task taskz 2
-add_employee sarah
-assign_employee taskx sarah
-assign_employee tasky sarah
-assign_employee taskz sarah
-finish_task tasky
-report employee sarah

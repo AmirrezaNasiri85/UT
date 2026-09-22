@@ -1,5 +1,0 @@
-POST login ? username "nobody" password "nopass"
-POST signup ? role visitor username "amirreza" password "frankpass"
-POST signup ? role chef username "amirreza" password "newpass"
-POST logout ?
-POST logout ?

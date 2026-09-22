@@ -1,9 +1,0 @@
-POST signup ? role visitor username "elahe_sess1" password "sess1"
-PUT ingredient ? name "eggs" amount 5
-GET report ? type refrigerator_status
-POST logout ?
-POST login ? username "elahe_sess1" password "sess1"
-GET report ? type refrigerator_status
-PUT ingredient ? name "butter" amount 3
-GET report ? type refrigerator_status
-POST logout ?

@@ -1,2 +1,0 @@
-POST signup ? role visitor username "parisa" password "carolpass"
-GET recommendations ? name "Calorie based recommender"

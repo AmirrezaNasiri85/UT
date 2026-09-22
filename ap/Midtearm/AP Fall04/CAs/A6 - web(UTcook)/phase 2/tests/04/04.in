@@ -1,7 +1,0 @@
-POST signup ? role visitor username "mahdi" password "pass456"
-GET report ? type most_liked
-POST logout ?
-POST signup ? role chef username "taha" password "pass123"
-GET report ? type most_liked
-GET report ? type most_liked count 0
-GET report ? type most_liked count -1

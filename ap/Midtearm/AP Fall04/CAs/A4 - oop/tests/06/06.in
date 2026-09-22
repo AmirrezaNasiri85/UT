@@ -1,9 +1,0 @@
-transfer_money 7001003 7001005 10000
-grant_loan 200 7001005 2
-pay_installment 200 7001005 0
-grant_loan 201 7001007 3
-pay_installment 201 7001007 0
-grant_loan 202 7001003 4
-pay_installment 202 7001003 0
-report top_debtors 3
-report top_trusted_clients 3

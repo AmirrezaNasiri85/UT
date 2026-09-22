@@ -1,8 +1,0 @@
-add_task taskA 5
-add_task taskB 3
-add_task taskC 5
-add_employee dave
-assign_employee taskA dave
-assign_employee taskB dave
-assign_employee taskC dave
-report ongoing

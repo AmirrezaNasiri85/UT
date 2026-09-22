@@ -1,6 +1,0 @@
-POST signup ? role visitor username "mahdis" password "gracepass"
-PUT ingredient ? name "milk" amount 2
-GET report ? type refrigerator_status
-POST logout ?
-POST login ? username "mahdis" password "wrongpass"
-POST login ? username "mahdis" password "gracepass"

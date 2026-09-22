@@ -1,8 +1,0 @@
-POST task ? date 1404/11/04 time 4 title "gerye" description "gerye kardan"
-POST signup ? username "babak" password "kabab"
-POsT task ? date 1404/11/04 time 4 title "gerye" description "gerye kardan"
-POST task ? date 1404/11/04 time 4 title "gerye" description "gerye kardan"
-DELETE task ? task_id 2
-DELETE task ? task_id 1
-POST logout ?
-DELETE task ? task_id 1

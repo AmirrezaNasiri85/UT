@@ -1,6 +1,0 @@
-create_template 'Geo' Geography:medium:1
-generate_test 'Geo_test' 'Geo'
-attend 'Geo_test'
-previous
-2
-report all

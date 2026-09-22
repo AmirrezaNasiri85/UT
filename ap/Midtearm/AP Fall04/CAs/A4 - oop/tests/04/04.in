@@ -1,6 +1,0 @@
-open_account Mani 7002301 3
-transfer_money 7001009 7002301 12345
-transfer_money 7002301 7001008 345
-transfer_money 7001016 7001015 333333
-transfer_money 7001016 7001015 1
-pay_interest

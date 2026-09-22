@@ -1,7 +1,0 @@
-POST signup ? role visitor username "parisa_logout" password "test"
-PUT ingredient ? name "eggs" amount 10
-PUT ingredient ? name "butter" amount 10
-PUT ingredient ? name "salt" amount 10
-PUT ingredient ? name "pepper" amount 10
-GET report ? type refrigerator_status
-GET recommendations ? name "Match based recommender"

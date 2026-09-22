@@ -1,7 +1,0 @@
-POST signup ? role chef username "babak" password "pass"
-POST recipe ? title "Recipe9" ingredients "flour:100" steps "Mix"
-POST logout ?
-POST signup ? role visitor username "parisa" password "pass"
-POST suggestion ? add_ingredient recipe "Recipe9" ingredient "salt" amount 10
-POST logout ?
-POST login ? username "babak" password "pass"
