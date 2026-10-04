@@ -42,6 +42,15 @@ def main_proccess_2(rows : int, columns: int, repeat_count: int, given_shape: li
         new_shape: str = ""
         for column_index in range(columns):
             new_shape += (repeat_count * given_shape[row_index][column_index])
-        
+
+        result_shape.extend([new_shape] * repeat_count)
+
+    print_result_2(result_shape)
+
+def print_result_2(given_shape: list):
+    for obj in given_shape:
+        print(obj)    
     
+rows, columns, repeat_count, given_shape = get_input()
+main_proccess_2(rows, columns, repeat_count, given_shape)
 
