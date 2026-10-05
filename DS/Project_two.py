@@ -29,9 +29,15 @@ def main_proccess(numbers_count: int, b_list: list):
 
         if(len(result_list) == numbers_count):
             print_result(result_list)
-            break
+            breakbreak
         else:
             result_list.clear()
 
 numbers_count, b_list = get_input()
 main_proccess(numbers_count, b_list)
+
+
+# We could have donr the logic with a recursive perspective.
+# In this solution we will make a lower bound and a upper bound
+# Then we update our results at each iteration.
+# After that we will take the minimium of the range.
