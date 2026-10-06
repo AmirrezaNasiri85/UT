@@ -10,7 +10,7 @@ class Wardrobe_handeler():
 
     def NEW(self, id: int):
         try:
-            if id not in self.wardrobe_dict:
+            if id in self.wardrobe_dict:
                 raise KeyError
             new_wardrode = Wardrobe(id, False, [])
             self.wardrobe_dict[id] = new_wardrode
@@ -70,7 +70,7 @@ class Wardrobe_handeler():
             target_wardrone: Wardrobe = self.wardrobe_dict[id]
             if target_wardrone.is_locked:
                 raise TypeError
-            elif target_wardrone.items:
+            elif not target_wardrone.items:
                 raise ZeroDivisionError
             sum_weights = sum(target_wardrone.items)
             items_count = len(target_wardrone.items)
@@ -109,7 +109,25 @@ class Wardrobe_handeler():
 
 
 def main_procces():
-    pass
+    sys_manager: Wardrobe_handeler = Wardrobe_handeler({})
 
-def get_input():
-    pass
+    while True:
+        line_input: list = list(input().split())
+
+        if(line_input[0] == "NEW"):
+            sys_manager.NEW(int(line_input[1]))
+        elif(line_input[0] == "PUT"):
+            sys_manager.PUT(int(line_input[1]), int(line_input[2]))
+        elif(line_input[0] == "LOCK"):
+            sys_manager.LOCK(int(line_input[1]))
+        elif(line_input[0] == "GET"):
+            sys_manager.GET(int(line_input[1]), int(line_input[2]))
+        elif(line_input[0] == "AVG"):
+            sys_manager.AVG(int(line_input[1]))
+        elif(line_input[0] == "MERGE"):
+            sys_manager.MERGE(int(line_input[1]), int(line_input[2]))
+        elif(line_input[0] == "EXIT"):
+            sys_manager.EXIT()
+            break
+
+main_procces()
