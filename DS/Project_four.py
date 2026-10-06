@@ -1,0 +1,115 @@
+class Wardrobe:
+    def __init__(self, id: int, is_locked, items: list):
+        self.id = id
+        self.is_locked = is_locked
+        self.items = items
+
+class Wardrobe_handeler():
+    def __init__(self, wardrobe_dict: dict):
+        self.wardrobe_dict = wardrobe_dict
+
+    def NEW(self, id: int):
+        try:
+            if id not in self.wardrobe_dict:
+                raise KeyError
+            new_wardrode = Wardrobe(id, False, [])
+            self.wardrobe_dict[id] = new_wardrode
+
+        except KeyError as error:
+            print("DuplicateLocker")
+        
+    def PUT(self, id: int, value: int):
+        try:
+            if id not in self.wardrobe_dict:
+                raise KeyError
+            target_wardrode: Wardrobe = self.wardrobe_dict[id]
+            if target_wardrode.is_locked:
+                raise TypeError
+            elif value <= 0:
+                raise ValueError  
+            target_wardrode.items.append(value)
+
+        except KeyError as error:
+            print("LockerNotFound")
+        except TypeError as error:
+            print("LockerIsLocked")
+        except ValueError as error:
+            print("InvalidValue")
+    
+    def LOCK(self, id: int):
+        try:
+            if id not in self.wardrobe_dict:
+                raise KeyError
+            targte_wardrone: Wardrobe = self.wardrobe_dict[id]
+            targte_wardrone.is_locked = True
+
+        except KeyError as error:
+            print("LockerNotFound")
+
+    def GET(self, id: int, index: int):
+        try:
+            if id not in self.wardrobe_dict:
+                raise KeyError
+            target_wardrone: Wardrobe = self.wardrobe_dict[id]
+            if target_wardrone.is_locked:
+                raise TypeError
+            elif index >= len(target_wardrone.items) or index < -len(target_wardrone.items):
+                raise IndexError
+            print(target_wardrone.items[index])
+        except KeyError as error:
+            print("LockerNotFound")
+        except TypeError as error:
+            print("LockerIsLocked")
+        except IndexError as error:
+            print("IndexOutOfRange")
+        
+    def AVG(self, id: int):
+        try:
+            if id not in self.wardrobe_dict:
+                raise KeyError
+            target_wardrone: Wardrobe = self.wardrobe_dict[id]
+            if target_wardrone.is_locked:
+                raise TypeError
+            elif target_wardrone.items:
+                raise ZeroDivisionError
+            sum_weights = sum(target_wardrone.items)
+            items_count = len(target_wardrone.items)
+            print(sum_weights // items_count)
+        
+        except KeyError as error:
+            print("LockerNotFound")
+        except TypeError as error:
+            print("LockerIsLocked")
+        except ZeroDivisionError as error:
+            print("EmptyLocker")
+    def MERGE(self, id1: int, id2: int):
+        try:
+            if id1 not in self.wardrobe_dict or id2 not in self.wardrobe_dict:
+                raise KeyError
+            elif id1 == id2:
+                raise ValueError
+            target_one: Wardrobe = self.wardrobe_dict[id1]
+            target_two: Wardrobe = self.wardrobe_dict[id2]
+    
+            if target_one.is_locked or target_two.is_locked:
+                raise TypeError
+            merged_list = target_two.items
+            target_one.items += merged_list
+            del self.wardrobe_dict[id2]
+
+        except KeyError as error:
+            print("LockerNotFound")
+        except ValueError as error:
+            print("SameLocker")
+        except TypeError as error:
+            print("LockerIsLocked")
+    
+    def EXIT(self):
+        self.wardrobe_dict.clear()
+
+
+def main_procces():
+    pass
+
+def get_input():
+    pass
