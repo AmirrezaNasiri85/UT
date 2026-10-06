@@ -16,7 +16,7 @@ class Wardrobe_handeler():
             self.wardrobe_dict[id] = new_wardrode
 
         except KeyError as error:
-            print("DuplicateLocker")
+            return("DuplicateLocker")
         
     def PUT(self, id: int, value: int):
         try:
@@ -30,11 +30,11 @@ class Wardrobe_handeler():
             target_wardrode.items.append(value)
 
         except KeyError as error:
-            print("LockerNotFound")
+            return("LockerNotFound")
         except TypeError as error:
-            print("LockerIsLocked")
+            return("LockerIsLocked")
         except ValueError as error:
-            print("InvalidValue")
+            return("InvalidValue")
     
     def LOCK(self, id: int):
         try:
@@ -44,7 +44,7 @@ class Wardrobe_handeler():
             targte_wardrone.is_locked = True
 
         except KeyError as error:
-            print("LockerNotFound")
+            return("LockerNotFound")
 
     def GET(self, id: int, index: int):
         try:
@@ -53,15 +53,15 @@ class Wardrobe_handeler():
             target_wardrone: Wardrobe = self.wardrobe_dict[id]
             if target_wardrone.is_locked:
                 raise TypeError
-            elif index >= len(target_wardrone.items) or index < -len(target_wardrone.items):
+            elif index >= len(target_wardrone.items):
                 raise IndexError
-            print(target_wardrone.items[index])
+            return(target_wardrone.items[index])
         except KeyError as error:
-            print("LockerNotFound")
+            return("LockerNotFound")
         except TypeError as error:
-            print("LockerIsLocked")
+            return("LockerIsLocked")
         except IndexError as error:
-            print("IndexOutOfRange")
+            return("IndexOutOfRange")
         
     def AVG(self, id: int):
         try:
@@ -74,60 +74,65 @@ class Wardrobe_handeler():
                 raise ZeroDivisionError
             sum_weights = sum(target_wardrone.items)
             items_count = len(target_wardrone.items)
-            print(sum_weights // items_count)
+            return(sum_weights // items_count)
         
         except KeyError as error:
-            print("LockerNotFound")
+            return("LockerNotFound")
         except TypeError as error:
-            print("LockerIsLocked")
+            return("LockerIsLocked")
         except ZeroDivisionError as error:
-            print("EmptyLocker")
+            return("EmptyLocker")
     def MERGE(self, id1: int, id2: int):
         try:
-            if id1 not in self.wardrobe_dict or id2 not in self.wardrobe_dict:
+            if (id1 not in self.wardrobe_dict) or (id2 not in self.wardrobe_dict):
                 raise KeyError
             elif id1 == id2:
                 raise ValueError
             target_one: Wardrobe = self.wardrobe_dict[id1]
             target_two: Wardrobe = self.wardrobe_dict[id2]
     
-            if target_one.is_locked or target_two.is_locked:
+            if (target_one.is_locked) or (target_two.is_locked):
                 raise TypeError
             merged_list = target_two.items
             target_one.items += merged_list
             del self.wardrobe_dict[id2]
 
         except KeyError as error:
-            print("LockerNotFound")
+            return("LockerNotFound")
         except ValueError as error:
-            print("SameLocker")
+            return("SameLocker")
         except TypeError as error:
-            print("LockerIsLocked")
+            return("LockerIsLocked")
     
     def EXIT(self):
         self.wardrobe_dict.clear()
 
 
+def print_result(out_puts: list):
+    for obj in out_puts:
+        if obj is not None:
+            print(obj)
+
 def main_procces():
     sys_manager: Wardrobe_handeler = Wardrobe_handeler({})
-
+    out_puts: list = []
     while True:
         line_input: list = list(input().split())
 
         if(line_input[0] == "NEW"):
-            sys_manager.NEW(int(line_input[1]))
+            out_puts.append(sys_manager.NEW(int(line_input[1])))
         elif(line_input[0] == "PUT"):
-            sys_manager.PUT(int(line_input[1]), int(line_input[2]))
+            out_puts.append(sys_manager.PUT(int(line_input[1]), int(line_input[2])))
         elif(line_input[0] == "LOCK"):
-            sys_manager.LOCK(int(line_input[1]))
+            out_puts.append(sys_manager.LOCK(int(line_input[1])))
         elif(line_input[0] == "GET"):
-            sys_manager.GET(int(line_input[1]), int(line_input[2]))
+            out_puts.append(sys_manager.GET(int(line_input[1]), int(line_input[2])))
         elif(line_input[0] == "AVG"):
-            sys_manager.AVG(int(line_input[1]))
+            out_puts.append(sys_manager.AVG(int(line_input[1])))
         elif(line_input[0] == "MERGE"):
-            sys_manager.MERGE(int(line_input[1]), int(line_input[2]))
+            out_puts.append(sys_manager.MERGE(int(line_input[1]), int(line_input[2])))
         elif(line_input[0] == "EXIT"):
-            sys_manager.EXIT()
+            out_puts.append(sys_manager.EXIT())
             break
-
+    print_result(out_puts)
 main_procces()
