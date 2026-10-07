@@ -57,7 +57,7 @@ class Wardrobe_handeler():
             target_wardrone: Wardrobe = self.wardrobe_dict[id]
             if target_wardrone.is_locked:
                 raise TypeError
-            elif index >= len(target_wardrone.items):
+            elif index >= len(target_wardrone.items) or index < 0:
                 raise IndexError
             print(target_wardrone.items[index])
         except KeyError as error:
