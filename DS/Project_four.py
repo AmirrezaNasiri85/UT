@@ -1,5 +1,5 @@
 class Wardrobe:
-    def __init__(self, id: int, is_locked, items: list, total_sum: int, total_items: int):
+    def __init__(self, id: str, is_locked, items: list, total_sum: int, total_items: int):
         self.total_sum = 0
         self.total_items = 0
         self.id = id
@@ -10,7 +10,7 @@ class Wardrobe_handeler():
     def __init__(self, wardrobe_dict: dict):
         self.wardrobe_dict = wardrobe_dict
 
-    def NEW(self, id: int):
+    def NEW(self, id: str):
         try:
             if id in self.wardrobe_dict:
                 raise KeyError
@@ -20,7 +20,7 @@ class Wardrobe_handeler():
         except KeyError as error:
             print("DuplicateLocker")
         
-    def PUT(self, id: int, value: int):
+    def PUT(self, id: str, value: int):
         try:
             if id not in self.wardrobe_dict:
                 raise KeyError
@@ -40,7 +40,7 @@ class Wardrobe_handeler():
         except ValueError as error:
             print("InvalidValue")
     
-    def LOCK(self, id: int):
+    def LOCK(self, id: str):
         try:
             if id not in self.wardrobe_dict:
                 raise KeyError
@@ -50,7 +50,7 @@ class Wardrobe_handeler():
         except KeyError as error:
             print("LockerNotFound")
 
-    def GET(self, id: int, index: int):
+    def GET(self, id: str, index: int):
         try:
             if id not in self.wardrobe_dict:
                 raise KeyError
@@ -67,7 +67,7 @@ class Wardrobe_handeler():
         except IndexError as error:
             print("IndexOutOfRange")
         
-    def AVG(self, id: int):
+    def AVG(self, id: str):
         try:
             if id not in self.wardrobe_dict:
                 raise KeyError
@@ -84,7 +84,7 @@ class Wardrobe_handeler():
             print("LockerIsLocked")
         except ZeroDivisionError as error:
             print("EmptyLocker")
-    def MERGE(self, id1: int, id2: int):
+    def MERGE(self, id1: str, id2: str):
         try:
             if (id1 not in self.wardrobe_dict) or (id2 not in self.wardrobe_dict):
                 raise KeyError
@@ -117,17 +117,17 @@ def main_procces():
         line_input: list = list(input().split())
 
         if(line_input[0] == "NEW"):
-            sys_manager.NEW(int(line_input[1]))
+            sys_manager.NEW(line_input[1])
         elif(line_input[0] == "PUT"):
-            sys_manager.PUT(int(line_input[1]), int(line_input[2]))
+            sys_manager.PUT(line_input[1], int(line_input[2]))
         elif(line_input[0] == "LOCK"):
-            sys_manager.LOCK(int(line_input[1]))
+            sys_manager.LOCK(line_input[1])
         elif(line_input[0] == "GET"):
-            sys_manager.GET(int(line_input[1]), int(line_input[2]))
+            sys_manager.GET(line_input[1], int(line_input[2]))
         elif(line_input[0] == "AVG"):
-            sys_manager.AVG(int(line_input[1]))
+            sys_manager.AVG(line_input[1])
         elif(line_input[0] == "MERGE"):
-            sys_manager.MERGE(int(line_input[1]), int(line_input[2]))
+            sys_manager.MERGE(line_input[1], line_input[2])
         elif(line_input[0] == "EXIT"):
             sys_manager.EXIT()
             break
