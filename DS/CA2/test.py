@@ -1,2 +1,2 @@
-a = [1, 2, 3]
-print(a[1:2])
+for _ in range(1):
+    print("hi")
