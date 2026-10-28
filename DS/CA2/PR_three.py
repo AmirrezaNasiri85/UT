@@ -6,17 +6,15 @@ class Node:
         self.next = next
         self.prev = prev
 
-def insert(head: Node, name: str, left_numbers):
-    print()
-    print("ENTERED INSERT")
-
+def insert(head: Node, tail: Node, name: str, left_numbers):
     new_node: Node = Node(name, None, None)
 
     temp = head
     if left_numbers == "M":
-        while(temp.next != None):
-            temp = temp.next  
-        temp.next = new_node 
+        tail.next = new_node
+        new_node.prev = tail
+        tail = new_node
+        return head, tail
     elif left_numbers == 0:
         new_node.next = head
         head.prev = new_node
@@ -29,12 +27,9 @@ def insert(head: Node, name: str, left_numbers):
         new_node.prev = temp
         new_node.next = next_temp
         next_temp.prev = new_node
-    return head
+    return head, tail
 
-def depart(head: Node, name: str):
-    print()
-    print("ENTERED DEPART")
-
+def depart(head: Node, tail: Node, name: str):
     temp: Node = head  
     while(temp.name != name):
         temp = temp.next
@@ -43,7 +38,11 @@ def depart(head: Node, name: str):
         new_head: Node = temp.next
         temp.prev = None
         head = new_head
-        return head
+        return head, tail
+    elif(temp == tail):
+        tail = tail.prev
+        tail.next = None
+        return head, tail
 
     
     prev: Node = temp.prev
@@ -58,7 +57,7 @@ def depart(head: Node, name: str):
 
     return head
 
-def relocate(head: Node, name: str, displacement: int):
+def relocate(head: Node, tail: Node, name: str, displacement: int):
     if displacement == 0 or head is None or head.next is None:
         return head
 
@@ -77,7 +76,10 @@ def relocate(head: Node, name: str, displacement: int):
         head = target.next
         if head is not None:
             head.prev = None
-            ش
+    elif target == tail:
+        tail = tail.prev
+        if tail is not Node:
+            tail.next = None
     else:
         if target.prev is not None:
             target.prev.next = target.next
@@ -123,9 +125,6 @@ def show_result(head: Node):
     print()
 
 def initialize_node(people_count: int):
-    print()
-    print("ENTERED INITIALIZATION")
-
     people: list = list(input().split())
     
     head: Node = None
@@ -139,18 +138,12 @@ def initialize_node(people_count: int):
         new_node.prev = prev
         prev = new_node
         
-    return head
+    return head, prev
 
 def main():
     people_count, orders_count = map(int, input().split())
 
-    head: Node = initialize_node(people_count)
-
-    # Test for node creation
-    print("----------------------")
-    show_result(head=head)
-    print("----------------------")
-    ########################
+    head, tail = initialize_node(people_count)
 
     for _ in range(orders_count):
         line = input().split()
@@ -163,16 +156,16 @@ def main():
             position = line[2]
             if position != "M":
                 position = int(position)
-            head = insert(head, name, position)
+            head, tail = insert(head, tail, name, position)
 
         elif command == "depart":
             name = line[1]
-            head = depart(head, name)
+            head, tail = depart(head, tail, name)
 
         elif command == "relocate":
             name = line[1]
             displacement = int(line[2])
-            head = relocate(head, name, displacement)
+            head, tail = relocate(head, tail, name, displacement)
     show_result(head=head)
 
 
