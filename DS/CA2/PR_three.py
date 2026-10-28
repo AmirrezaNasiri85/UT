@@ -6,107 +6,84 @@ class Node:
         self.next = next
         self.prev = prev
 
-def insert(head: Node, tail: Node, name: str, left_numbers):
+def insert(head: Node, tail: Node, name: str, left_numbers, disctionaries_node: dict):
     new_node: Node = Node(name, None, None)
+    disctionaries_node[name]  = new_node
 
     temp = head
     if left_numbers == "M":
         tail.next = new_node
         new_node.prev = tail
         tail = new_node
-        return head, tail
+
     elif left_numbers == 0:
         new_node.next = head
         head.prev = new_node
         head = new_node
+
     else:
         for _ in range(left_numbers - 1):
             temp = temp.next
+
         next_temp: Node = temp.next
         temp.next = new_node
         new_node.prev = temp
         new_node.next = next_temp
         next_temp.prev = new_node
-    return head, tail
+    return head, tail, disctionaries_node
 
-def depart(head: Node, tail: Node, name: str):
-    temp: Node = head  
-    while(temp.name != name):
-        temp = temp.next
+def depart(head, tail, name, nodes):
+    temp = nodes.pop(name)         
 
-    if(temp == head):
-        new_head: Node = temp.next
-        temp.prev = None
-        head = new_head
-        return head, tail
-    elif(temp == tail):
-        tail = tail.prev
-        tail.next = None
-        return head, tail
+    if temp.prev is not None:
+        temp.prev.next = temp.next
+    else:
+        head = temp.next           
 
-    
-    prev: Node = temp.prev
-    next: Node = temp.next
+    if temp.next is not None:
+        temp.next.prev = temp.prev
+    else:
+        tail = temp.prev           
 
-    prev.next = next
-    if next is not None:
-        next.prev = prev
-    
-    temp.next = None
-    temp.prev = None
+    temp.prev = temp.next = None
+    return head, tail, nodes
 
-    return head
 
-def relocate(head: Node, tail: Node, name: str, displacement: int):
-    if displacement == 0 or head is None or head.next is None:
-        return head
+def relocate(head, tail, name, displacement, nodes):
+    if displacement == 0:
+        return head, tail, nodes
 
-    target = head
-    while target is not None and target.name != name:
-        target = target.next
-
-    if target is None:
-        return head
+    target = nodes[name]   
 
     old_prev = target.prev
     old_next = target.next
 
-
-    if target == head:
-        head = target.next
-        if head is not None:
-            head.prev = None
-    elif target == tail:
-        tail = tail.prev
-        if tail is not Node:
-            tail.next = None
+    if old_prev is not None:
+        old_prev.next = old_next
     else:
-        if target.prev is not None:
-            target.prev.next = target.next
-        if target.next is not None:
-            target.next.prev = target.prev
-
-    target.prev = None
-    target.next = None
+        head = old_next
+    if old_next is not None:
+        old_next.prev = old_prev
+    else:
+        tail = old_prev
+    target.prev = target.next = None
 
     if displacement > 0:
-        current = old_next if old_next is not None else head
+        current = old_next
         for _ in range(displacement - 1):
-            if current.next is not None:
-                current = current.next
-        
-        next = current.next
+            current = current.next
+        nxt = current.next
         current.next = target
         target.prev = current
-        target.next = next
-        if next is not None:
-            next.prev = target
+        target.next = nxt
+        if nxt is not None:
+            nxt.prev = target
+        else:
+            tail = target
     else:
-        current = old_prev if old_prev is not None else head
+        current = old_prev
         for _ in range(-displacement - 1):
-            if current.prev is not None:
-                current = current.prev
-
+            current = current.prev
         prev = current.prev
         target.next = current
         current.prev = target
@@ -116,7 +93,9 @@ def relocate(head: Node, tail: Node, name: str, displacement: int):
         else:
             head = target
 
-    return head
+    return head, tail, nodes
+
+
 def show_result(head: Node):
     temp: Node = head
     while temp != None:
@@ -125,6 +104,8 @@ def show_result(head: Node):
     print()
 
 def initialize_node(people_count: int):
+    disctionaries_node: dict = {}
+
     people: list = list(input().split())
     
     head: Node = None
@@ -137,13 +118,15 @@ def initialize_node(people_count: int):
             prev.next = new_node
         new_node.prev = prev
         prev = new_node
+
+        disctionaries_node[new_node.name] = new_node
         
-    return head, prev
+    return head, prev, disctionaries_node
 
 def main():
     people_count, orders_count = map(int, input().split())
 
-    head, tail = initialize_node(people_count)
+    head, tail, disctionaries_node = initialize_node(people_count)
 
     for _ in range(orders_count):
         line = input().split()
@@ -156,16 +139,16 @@ def main():
             position = line[2]
             if position != "M":
                 position = int(position)
-            head, tail = insert(head, tail, name, position)
+            head, tail, disctionaries_node = insert(head, tail, name, position, disctionaries_node)
 
         elif command == "depart":
             name = line[1]
-            head, tail = depart(head, tail, name)
+            head, tail, disctionaries_node = depart(head, tail, name, disctionaries_node)
 
         elif command == "relocate":
             name = line[1]
             displacement = int(line[2])
-            head, tail = relocate(head, tail, name, displacement)
+            head, tail, disctionaries_node = relocate(head, tail, name, displacement,disctionaries_node)
     show_result(head=head)
 
 
