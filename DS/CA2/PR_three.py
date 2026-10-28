@@ -77,6 +77,7 @@ def relocate(head: Node, name: str, displacement: int):
         head = target.next
         if head is not None:
             head.prev = None
+            ش
     else:
         if target.prev is not None:
             target.prev.next = target.next
