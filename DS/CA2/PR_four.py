@@ -7,7 +7,7 @@ class Node:
         self.value = value
     
 def get_input():
-    numbers_count, operation_count = map(int, input())
+    numbers_count, operation_count = map(int, input().split())
     numbers: list = list(map(int, input().split()))
 
     head: Node = None
@@ -27,6 +27,7 @@ def get_input():
 
 def main_proccess(head: Node, search_node: dict, start_clip: int,
     end_clip: int, start_match: int):
+
     start_node: Node = search_node[start_clip]
     end_node: Node = search_node[end_clip]
 
@@ -37,11 +38,14 @@ def main_proccess(head: Node, search_node: dict, start_clip: int,
     elif end_node.next is None:
         prev_start: Node = start_node.prev
         prev_start.next = None
+    elif start_node.next is None:
+        prev_start: Node = start_node.prev
+        prev_start.next = None
     else:
         prev_start: Node = start_node.prev
         next_end: Node = end_node.next
 
-        prev_start.next = end_node
+        prev_start.next = next_end
         next_end.prev = prev_start
 
     if start_match == 0:
@@ -52,16 +56,22 @@ def main_proccess(head: Node, search_node: dict, start_clip: int,
         head = start_node
         start_node.prev = None
     else:
-        match_node: Node = search_node[start_node]
+        match_node: Node = search_node[start_match]
 
-        match_node_next: Node = match_node.next
+        if match_node.next is None:
+            match_node.next = start_node
+            start_node.prev = match_node
 
-        start_node.prev = match_node
-        match_node.next = start_match
+            end_node.next = None
+        else:
+            match_node_next: Node = match_node.next
 
-        end_node.next = match_node_next
-        match_node_next.prev = end_node
-    
+            start_node.prev = match_node
+            match_node.next = start_node
+
+            end_node.next = match_node_next
+            match_node_next.prev = end_node
+
     return head, search_node
 
 
@@ -77,7 +87,7 @@ def sys_handel(haed: Node, search_node: dict, operation_count: int):
         start_clip, end_clip, start_match = map(int, input().split())
 
         haed, search_node = main_proccess(haed, search_node, start_clip, end_clip, start_match)
-
+    show_result(haed)
     
 if __name__ == "__main__":
     head, search_node, operation_count = get_input()
