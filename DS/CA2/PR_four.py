@@ -31,47 +31,34 @@ def main_proccess(head: Node, search_node: dict, start_clip: int,
     start_node: Node = search_node[start_clip]
     end_node: Node = search_node[end_clip]
 
-    if start_node == head and end_node.next is not None:
-        next_end_clip: Node = end_node.next
-        next_end_clip.prev = None
-        head = next_end_clip
-    elif end_node.next is None:
-        prev_start: Node = start_node.prev
-        prev_start.next = None
-    elif start_node.next is None:
-        prev_start: Node = start_node.prev
-        prev_start.next = None
-    else:
-        prev_start: Node = start_node.prev
-        next_end: Node = end_node.next
+    prev_node: Node = start_node.prev
+    next_node: Node = end_node.next
 
-        prev_start.next = next_end
-        next_end.prev = prev_start
+    if prev_node is not None:
+        prev_node.next = next_node
+    if next_node is not None:
+        next_node.prev = prev_node
+    
+    if start_node == head:
+        head = next_node
 
     if start_match == 0:
-        match_node: Node = head
-        
         end_node.next = head
-        head.prev = end_node
-        head = start_node
         start_node.prev = None
+        if head is not None:
+            head.prev = end_node
+        head = start_node
     else:
         match_node: Node = search_node[start_match]
+        next_after_match: Node = match_node.next
 
-        if match_node.next is None:
-            match_node.next = start_node
-            start_node.prev = match_node
+        match_node.next = start_node
+        start_node.prev = match_node
 
-            end_node.next = None
-        else:
-            match_node_next: Node = match_node.next
-
-            start_node.prev = match_node
-            match_node.next = start_node
-
-            end_node.next = match_node_next
-            match_node_next.prev = end_node
-
+        end_node.next = next_after_match
+        if next_after_match is not None:
+            next_after_match.prev = end_node
+    
     return head, search_node
 
 
