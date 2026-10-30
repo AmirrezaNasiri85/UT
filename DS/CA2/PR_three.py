@@ -25,11 +25,15 @@ def insert(head: Node, tail: Node, name: str, left_numbers, disctionaries_node: 
         for _ in range(left_numbers - 1):
             temp = temp.next
 
-        next_temp: Node = temp.next
+        next_temp = temp.next
         temp.next = new_node
         new_node.prev = temp
         new_node.next = next_temp
-        next_temp.prev = new_node
+        if next_temp is not None:
+            next_temp.prev = new_node
+        else:
+            tail = new_node
+
     return head, tail, disctionaries_node
 
 def depart(head, tail, name, nodes):
