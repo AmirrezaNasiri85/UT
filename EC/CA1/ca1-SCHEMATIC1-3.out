@@ -1,0 +1,89 @@
+
+**** 11/13/26 09:21:38 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-3"  [ C:\Users\Amirreza\Documents\Term3\EC\ca1-SCHEMATIC1-3.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ca1-SCHEMATIC1-3.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\ca1-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING ca1-SCHEMATIC1.net ****
+* source CA1
+R_R7         N00850 0  1k  
+R_R1         N00816 N00705  3k  
+V_V1         N00705 N00850 15Vdc
+R_R10         0 N06996  1.983k  
+X_F2    N00816 N00928 N00928 0 SCHEMATIC1_F2 
+V_V5         N01006 0 0Vdc
+R_R2         N00850 N00816  8k  
+I_I1         0 N06996 DC 1.925mAdc  
+R_R3         N00816 N00816  2k  
+R_R4         0 N00928  4k  
+R_R5         N00928 N01006  6k  
+R_R6         0 N01006  3k  
+R_RL         0 N06996  2k  
+
+.subckt SCHEMATIC1_F2 1 2 3 4  
+F_F2         3 4 VF_F2 25
+VF_F2         1 2 0V
+.ends SCHEMATIC1_F2
+
+**** RESUMING ca1-SCHEMATIC1-3.sim.cir ****
+.END
+
+**** 11/13/26 09:21:38 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-3"  [ C:\Users\Amirreza\Documents\Term3\EC\ca1-SCHEMATIC1-3.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00705)   15.2000 (N00816)   11.5470 (N00850)     .2005 (N00928)   11.5470     
+
+(N01006)    0.0000 (N06996)    1.9168 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.218E-03
+    V_V5         1.924E-03
+    X_F2.VF_F2  -2.005E-04
+
+    TOTAL POWER DISSIPATION   1.83E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+

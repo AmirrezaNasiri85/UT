@@ -1,0 +1,19 @@
+* source CA1
+R_R7         N00850 0  1k  
+R_R1         N00816 N00705  3k  
+V_V1         N00705 N00850 15Vdc
+R_R10         0 N06996  1.983k  
+X_F2    N00816 N00928 N00928 0 SCHEMATIC1_F2 
+V_V5         N01006 0 0Vdc
+R_R2         N00850 N00816  8k  
+I_I1         0 N06996 DC 1.925mAdc  
+R_R3         N00816 N00816  2k  
+R_R4         0 N00928  4k  
+R_R5         N00928 N01006  6k  
+R_R6         0 N01006  3k  
+R_RL         0 N06996  2k  
+
+.subckt SCHEMATIC1_F2 1 2 3 4  
+F_F2         3 4 VF_F2 25
+VF_F2         1 2 0V
+.ends SCHEMATIC1_F2

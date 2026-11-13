@@ -1,0 +1,162 @@
+
+**** 11/13/26 10:40:55 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Question_2"  [ C:\Users\Amirreza\Documents\Term3\EC\question2-SCHEMATIC1-Question_2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "question2-SCHEMATIC1-Question_2.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\question2-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING question2-SCHEMATIC1.net ****
+* source QUESTION2
+X_U1         N00400 N00473 N05011 N04199 N02844 uA741
+R_R1         0 N00473  2k  
+R_Rf1         N00473 N02844  6k  
+R_R3         N02844 N00902  2k  
+V_V3         0 N05011 -15Vdc
+V_V4         0 N04199 15Vdc
+R_Rf2         N00902 N04728  10k  
+R_RL         0 N04728  5k  
+V_V1         N00400 0 1Vdc
+X_U2         0 N00902 N05011 N04199 N04728 uA741
+
+**** RESUMING question2-SCHEMATIC1-Question_2.sim.cir ****
+.END
+
+**** 11/13/26 10:40:55 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Question_2"  [ C:\Users\Amirreza\Documents\Term3\EC\question2-SCHEMATIC1-Question_2.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.dx         X_U1.dy         X_U2.dx         X_U2.dy         
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+**** 11/13/26 10:40:55 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Question_2"  [ C:\Users\Amirreza\Documents\Term3\EC\question2-SCHEMATIC1-Question_2.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.qx         X_U2.qx         
+               NPN             NPN             
+          IS  800.000000E-18  800.000000E-18 
+          BF   93.75           93.75         
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+          CN    2.42            2.42         
+           D     .87             .87         
+
+
+**** 11/13/26 10:40:55 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Question_2"  [ C:\Users\Amirreza\Documents\Term3\EC\question2-SCHEMATIC1-Question_2.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00400)    1.0000 (N00473)    1.0000 (N00902)     .8645 (N02844)    4.0003     
+
+(N04199)  -15.0000 (N04728)  -14.8130 (N05011)   15.0000 (X_U1.6)-406.7E-06     
+
+(X_U1.7)    4.1037 (X_U1.8)    4.1037 (X_U1.9)    0.0000 (X_U2.6)    1.5018     
+
+(X_U2.7)  -16.8440 (X_U2.8)  -16.8440 (X_U2.9)    0.0000 (X_U1.10)     .3921    
+
+(X_U1.11)   14.9600                   (X_U1.12)   14.9600                       
+
+(X_U1.13)     .4061                   (X_U1.14)     .4061                       
+
+(X_U1.53)   14.0000                   (X_U1.54)  -14.0000                       
+
+(X_U1.90)    2.0680                   (X_U1.91)   40.0000                       
+
+(X_U1.92)  -40.0000                   (X_U1.99)    0.0000                       
+
+(X_U2.10)     .2248                   (X_U2.11)   14.9200                       
+
+(X_U2.12)   15.0000                   (X_U2.13)     .2527                       
+
+(X_U2.14)     .2248                   (X_U2.53)   14.0000                       
+
+(X_U2.54)  -14.0000                   (X_U2.90)  -40.6070                       
+
+(X_U2.91)   40.0000                   (X_U2.92)  -40.0000                       
+
+(X_U2.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3         3.334E-03
+    V_V4         3.274E-02
+    V_V1        -8.018E-08
+    X_U1.vb     -4.067E-09
+    X_U1.vc      1.000E-11
+    X_U1.ve      1.819E-11
+    X_U1.vlim    2.068E-03
+    X_U1.vlp    -3.793E-11
+    X_U1.vln    -4.207E-11
+    X_U2.vb      1.502E-05
+    X_U2.vc      2.881E-11
+    X_U2.ve     -3.608E-02
+    X_U2.vlim   -4.061E-02
+    X_U2.vlp    -8.061E-11
+    X_U2.vln     1.231E-05
+
+    TOTAL POWER DISSIPATION  -4.06E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .03
+

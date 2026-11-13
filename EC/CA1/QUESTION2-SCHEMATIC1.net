@@ -1,0 +1,11 @@
+* source QUESTION2
+X_U1         N00400 N00473 N05011 N04199 N02844 uA741
+R_R1         0 N00473  2k  
+R_Rf1         N00473 N02844  6k  
+R_R3         N02844 N00902  2k  
+V_V3         0 N05011 -15Vdc
+V_V4         0 N04199 15Vdc
+R_Rf2         N00902 N04728  10k  
+R_RL         0 N04728  5k  
+V_V1         N00400 0 1Vdc
+X_U2         0 N00902 N05011 N04199 N04728 uA741
