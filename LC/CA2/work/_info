@@ -11,7 +11,7 @@ cModel Technology
 dC:/intelFPGA/20.1
 vadder_16_bit
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1795712881
+Z1 !s110 1795712995
 !i10b 1
 !s100 i2[h@mn1o1nW8Z=n9cEYn2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,13 +22,13 @@ Z4 dC:/Users/Amirreza/Documents/GitHub/UT/LC/CA2
 Z5 w1795706545
 Z6 8adder.sv
 Z7 Fadder.sv
-!i122 4
+!i122 5
 L0 33 23
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1795712881.000000
+Z9 !s108 1795712995.000000
 !s107 adder.sv|ALU.sv|C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/ALU_test_bench.sv|
 Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/ALU_test_bench.sv|
 !i113 1
@@ -47,7 +47,7 @@ R4
 R5
 R6
 R7
-!i122 4
+!i122 5
 L0 1 7
 R8
 r1
@@ -72,7 +72,7 @@ R4
 R5
 R6
 R7
-!i122 4
+!i122 5
 L0 9 23
 R8
 r1
@@ -97,7 +97,7 @@ R4
 w1795709664
 8ALU.sv
 FALU.sv
-!i122 4
+!i122 5
 L0 3 92
 R8
 r1
@@ -110,3 +110,29 @@ R10
 R11
 R12
 n@a@l@u
+vALU_test_bench
+R0
+R1
+!i10b 1
+!s100 C0WK:ac@A=F8H45@_WC6z2
+R2
+Ij4G<T_n00[?oKOXEGc3Z30
+R3
+S1
+R4
+w1795712944
+8C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/ALU_test_bench.sv
+FC:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/ALU_test_bench.sv
+!i122 5
+L0 5 55
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 1
+R11
+R12
+n@a@l@u_test_bench
