@@ -18,7 +18,7 @@ module adder_4_bit (
 
     genvar i;
     generate
-        for (i = 0; i < 4; i = i + 1) begin : 
+        for (i = 0; i < 4; i = i + 1) begin : gen_fa
             adder_1_bit u_fa (
                 .a(a[i]),
                 .b(b[i]),
@@ -42,13 +42,11 @@ module adder_16_bit (
 
     genvar i;
     generate
-        for (i = 0; i < 4; i = i + 1) begin : 
-            logic [3:0] a_slice;
-            logic [3:0] b_slice;
-            logic [3:0] sum_slice;
+        for (i = 0; i < 4; i = i + 1) begin : gen_fa4
+            wire [3:0] a_slice = a[4*i + 3 : 4*i];
+            wire [3:0] b_slice = b[4*i + 3 : 4*i];
+            wire [3:0] sum_slice;
 
-            assign a_slice = a[4*i + 3 : 4*i];
-            assign b_slice = b[4*i + 3 : 4*i];
             assign sum[4*i + 3 : 4*i] = sum_slice;
 
             adder_4_bit u_fa4 (
