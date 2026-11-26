@@ -38,6 +38,8 @@ module ALU (
                 carry_out  = adder_cout;
             end
             3'b001: begin
+                // This part is going to be changed adter the inspects of the supervisors.
+                // Permomently we will use division by 4 instead of division by 5.
                 W = M >> 2;
                 carry_out  = 1'b0;
             end
