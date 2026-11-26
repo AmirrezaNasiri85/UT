@@ -1,3 +1,7 @@
 # Compile of ALU_test_bench.sv failed with 4 errors.
 # Compile of adder.sv was successful.
 # Compile of ALU.sv was successful.
+# Compile of ALU_test_bench.sv failed with 1 errors.
+clear
+# invalid command name "clear"
+# Compile of ALU_test_bench.sv failed with 1 errors.

@@ -44,11 +44,11 @@ module ALU_test_bench;
             M = $random();            
             N = $random();
             carry_in = $random % 2;
-            opcodes  = $random % 8;
+            epcodes  = $random % 8;
 
             #10;
             $display("%4t |    %3b | %6d | %6d |   %1b | %6d | %1b %1b %1b %1b    %1b", 
-                    $time, opcodes, M, N, carry_in, W, zer, neg, grt, ovf, carry_out);
+                    $time, epcodes, M, N, carry_in, W, zer, neg, grt, ovf, carry_out);
         end
 
         #20;
