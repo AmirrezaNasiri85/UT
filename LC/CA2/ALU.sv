@@ -39,7 +39,9 @@ module ALU (
             end
 
             3'b001: begin 
-                // Have no idea a bout this one
+                // Permomently i use >> 2 which is dividing by 4 .
+                // After the answers of the supervisosr this part will changed with high probabilities.
+                W =  M >> 2;
             end
 
             3'b010: begin  

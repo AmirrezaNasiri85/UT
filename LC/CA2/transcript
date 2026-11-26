@@ -149,3 +149,46 @@ vsim -gui work.ALU_test_bench
 # Error loading design
 # End time: 20:40:56 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 1
+# Compile of ALU_test_bench.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of ALU.sv was successful.
+vsim -gui work.ALU_test_bench
+# vsim -gui work.ALU_test_bench 
+# Start time: 20:42:38 on Nov 26,2026
+# Loading sv_std.std
+# Loading work.ALU_test_bench
+# Loading work.ALU
+# Loading work.adder_16_bit
+# Loading work.adder_4_bit
+# Loading work.adder_1_bit
+add wave sim:/ALU_test_bench/*
+run -all
+# Time | Opcode |      M |      N | Cin |      W | Z N G V Cout
+# ---------------------------------------------------------------
+# 20000 |    011 |  13604 |  24193 |   1 |      0 | 1 0 0 0    0
+# 30000 |    010 |  31501 |  39309 |   1 |  40812 | 0 1 0 1    0
+# 40000 |    101 |  58113 |  52493 |   0 |  61197 | 0 1 1 0    0
+# 50000 |    110 |  22509 |  63372 |   1 |  43026 | 0 1 0 0    0
+# 60000 |    111 |  33989 |  53930 |   1 |      0 | 1 0 0 0    0
+# 70000 |    110 |  54802 |  56207 |   0 |  10733 | 0 0 0 0    0
+# 80000 |    101 |  31464 |  20165 |   0 |  32493 | 0 0 1 0    0
+# 90000 |    010 |  22573 |   9829 |   1 |  51629 | 0 1 1 1    0
+# 100000 |    101 |   8832 |   8480 |   0 |   9120 | 0 0 1 0    0
+# 110000 |    011 |  16022 |  47123 |   1 |  17312 | 0 0 0 0    0
+# 120000 |    110 |  56683 |  10965 |   0 |   8852 | 0 0 1 0    0
+# 130000 |    010 |  59677 |  29391 |   1 |   2112 | 0 0 1 0    1
+# 140000 |    010 |   2762 |  19516 |   0 |   2112 | 0 0 1 0    1
+# 150000 |    001 |  45889 |  13528 |   0 |      0 | 1 0 1 0    0
+# 160000 |    110 |   3563 |  26038 |   0 |  61972 | 0 1 0 0    0
+# 170000 |    001 |    700 |  56618 |   1 |      0 | 1 0 0 0    0
+# 180000 |    010 |  16773 |  21839 |   1 |  57318 | 0 1 0 1    0
+# 190000 |    001 |  12926 |  19221 |   1 |      0 | 1 0 0 0    0
+# 200000 |    111 |   1890 |  64332 |   1 |      0 | 1 0 0 0    0
+# 210000 |    100 |  43512 |  24759 |   1 |   8368 | 0 0 1 0    0
+# Simulation Finished.
+# ** Note: $finish    : C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/ALU_test_bench.sv(56)
+#    Time: 230 ns  Iteration: 0  Instance: /ALU_test_bench
+# 1
+# Break in Module ALU_test_bench at C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/ALU_test_bench.sv line 56
+# End time: 21:15:33 on Nov 26,2026, Elapsed time: 0:32:55
+# Errors: 0, Warnings: 4

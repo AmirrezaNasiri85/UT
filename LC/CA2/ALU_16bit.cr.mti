@@ -1,4 +1,15 @@
-C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/adder.sv {1 {vlog -work work -sv -stats=none C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/adder.sv
+C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/ALU_test_bench.sv {1 {vlog -work work -sv -stats=none C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/ALU_test_bench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder_1_bit
+-- Compiling module adder_4_bit
+-- Compiling module adder_16_bit
+-- Compiling module ALU
+-- Compiling module ALU_test_bench
+
+Top level modules:
+	ALU_test_bench
+
+} {} {}} C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/adder.sv {1 {vlog -work work -sv -stats=none C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/adder.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module adder_1_bit
 -- Compiling module adder_4_bit
@@ -6,15 +17,5 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	adder_16_bit
-
-} {} {}} C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/ALU.sv {1 {vlog -work work -sv -stats=none C:/Users/Amirreza/Documents/GitHub/UT/LC/CA2/ALU.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module adder_1_bit
--- Compiling module adder_4_bit
--- Compiling module adder_16_bit
--- Compiling module ALU
-
-Top level modules:
-	ALU
 
 } {} {}}

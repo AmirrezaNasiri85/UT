@@ -1,5 +1,5 @@
 module adder_1_bit (
-    input a, b, carry_in, 
+    input  logic a, b, carry_in, 
     output logic sum, carry_out
 );
     assign sum = a ^ b ^ carry_in;
@@ -7,8 +7,8 @@ module adder_1_bit (
 endmodule
 
 module adder_4_bit (
-    input [3:0] a, b,
-    input carry_in,
+    input  logic [3:0] a, b,
+    input  logic carry_in,
     output logic [3:0] sum,
     output logic carry_out
 );
@@ -18,7 +18,7 @@ module adder_4_bit (
 
     genvar i;
     generate
-        for (i = 0; i < 4; i += 1) begin : gen_fa
+        for (i = 0; i < 4; i = i + 1) begin : 
             adder_1_bit u_fa (
                 .a(a[i]),
                 .b(b[i]),
@@ -31,8 +31,8 @@ module adder_4_bit (
 endmodule
 
 module adder_16_bit (
-    input [15:0] a, b,
-    input carry_in,
+    input  logic [15:0] a, b,
+    input  logic carry_in,
     output logic [15:0] sum,
     output logic carry_out
 );
@@ -42,16 +42,22 @@ module adder_16_bit (
 
     genvar i;
     generate
-        for (i = 0; i < 4; i += 1) begin : gen_fa4
+        for (i = 0; i < 4; i = i + 1) begin : 
+            logic [3:0] a_slice;
+            logic [3:0] b_slice;
+            logic [3:0] sum_slice;
+
+            assign a_slice = a[4*i + 3 : 4*i];
+            assign b_slice = b[4*i + 3 : 4*i];
+            assign sum[4*i + 3 : 4*i] = sum_slice;
+
             adder_4_bit u_fa4 (
-                .a(a[4*i +: 4]),
-                .b(b[4*i +: 4]),
+                .a(a_slice),
+                .b(b_slice),
                 .carry_in(carry_holders[i]),
-                .sum(sum[4*i +: 4]),
+                .sum(sum_slice),
                 .carry_out(carry_holders[i+1])
             );
         end
     endgenerate
 endmodule
-
-
