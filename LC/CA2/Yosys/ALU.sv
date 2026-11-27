@@ -14,12 +14,25 @@ module ALU (
     logic [15:0] adder_sum;
     logic adder_cout;
 
-    adder_16_bit alu_adder (
+    adder_16_bit alu_adder_1 (
         .a(adder_op_a),
         .b(adder_op_b),
         .carry_in(adder_cin),
         .sum(adder_sum),
         .carry_out(adder_cout)
+    );
+
+    logic [15:0] adder_op_a_2;
+    logic [15:0] adder_op_b_2;
+    logic adder_cin_2;
+    logic [15:0] adder_sum_2;
+    logic adder_cout_2;
+    adder_16_bit alu_adder_2 (
+        .a(adder_op_a_2),
+        .b(adder_op_b_2),
+        .carry_in(adder_cin_2),
+        .sum(adder_sum_2),
+        .carry_out(adder_cout_2)
     );
 
     always @(*) begin
@@ -38,8 +51,15 @@ module ALU (
                 carry_out  = adder_cout;
             end
             3'b001: begin
-                W = M >> 2;
-                carry_out  = 1'b0;
+                // This part can be changed in the future.
+                adder_op_a = (N >> 2);
+                adder_op_b = ~(N >> 4);
+                adder_cin = 1`b1;
+                adder_op_a_2 = adder_sum;
+                adder_op_b_2 = M;
+                adder_cin_2 = 1`b0;
+                W = adder_sum_2;
+                carry_out = adder_cout_2
             end
             3'b010: begin
                 adder_op_a = M;
