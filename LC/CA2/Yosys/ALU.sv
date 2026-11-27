@@ -63,7 +63,7 @@ module ALU (
                 adder_op_b_2 = M;
                 adder_cin_2 = 1'b0;
                 W = adder_sum_2;
-                carry_out = adder_cout_2
+                carry_out = adder_cout_2;
             end
             3'b010: begin
                 adder_op_a = M;
@@ -104,7 +104,13 @@ module ALU (
         zer = (W == 16'b0);
         neg = W[15];
         grt = (M > N);
-        ovf = (opcodes[2] == 1'b0) ? ((adder_op_a[15] == adder_op_b[15]) && (W[15] != adder_op_a[15])) : 1'b0;
+    
+        if(opcodes == 3'b001) begin
+            ovf = (opcodes[2] == 1'b0) ? ((adder_op_a_2[15] == adder_op_b_2[15]) && (W[15] != adder_op_a_2[15])) : 1'b0;
+        end
+        else begin
+            ovf = (opcodes[2] == 1'b0) ? ((adder_op_a[15] == adder_op_b[15]) && (W[15] != adder_op_a[15])) : 1'b0;
+        end
     end
 
 endmodule
