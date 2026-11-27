@@ -39,6 +39,10 @@ module ALU (
         adder_op_a = 16'b0;
         adder_op_b = 16'b0;
         adder_cin  = 1'b0;
+        adder_op_a_2 = 16'b0;
+        adder_op_b_2 = 16'b0;
+        adder_cin_2  = 1'b0;
+
         W = 16'b0;
         carry_out  = 1'b0;
 
@@ -54,10 +58,10 @@ module ALU (
                 // This part can be changed in the future.
                 adder_op_a = (N >> 2);
                 adder_op_b = ~(N >> 4);
-                adder_cin = 1`b1;
+                adder_cin = 1'b1;
                 adder_op_a_2 = adder_sum;
                 adder_op_b_2 = M;
-                adder_cin_2 = 1`b0;
+                adder_cin_2 = 1'b0;
                 W = adder_sum_2;
                 carry_out = adder_cout_2
             end
